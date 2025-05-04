@@ -10,8 +10,7 @@ This repository contains the source code and files for the "A2Z News" React appl
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [APIs Used](#apis-used)
-- [Contributing](#contributing)
-- [License](#license)
+-
 
 ## Introduction
 
@@ -32,7 +31,7 @@ To run this application locally, you will need Node.js and npm (Node Package Man
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/Thevaibhavgarg/AtoZ_News-ReactJs.git
+   git clone https://github.com/raushan587/AtoZ_News-ReactJs.git
    ```
 
 2. Change your working directory to the project folder:
@@ -68,18 +67,5 @@ This will start the development server and open the app in your default web brow
 
 The app uses the [News API](https://newsapi.org/) to fetch news data. You will need to obtain an API key from the News API website and configure it in your app for data retrieval you find the api key attribute in news component just change the key to newly obtained key.
 
-## Contributing
 
-If you would like to contribute to this project, please follow these steps:
 
-1. Fork the repository to your GitHub account.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Create a pull request from your fork to the main repository.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Thank you for checking out the "A2Z News" React app! If you have any questions or suggestions, feel free to open an issue or contribute to the project.
