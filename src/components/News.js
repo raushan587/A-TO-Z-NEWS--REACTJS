@@ -27,1309 +27,1297 @@ export class News extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            articles:[
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "forbes.com",
-                "title": "Shock Leak Reveals Elon Musk’s ‘Mind-Blowing’ X Plan To Replace Banks And PayPal",
-                "description": "Elon Musk, the Tesla billionaire who took the social media company Twitter private last year and rebranded it X, has outlined his grand plan for the platform at an \"all-hands\" virtual meeting. Subscribe now to Forbes' CryptoAsset & Blockchain Advisor and succ…",
-                "url": "https://biztoc.com/x/05065c9b3bd90f5b",
-                "urlToImage": "https://c.biztoc.com/p/05065c9b3bd90f5b/og.webp",
-                "publishedAt": "2023-10-28T15:22:19Z",
-                "content": "Elon Musk, the Tesla billionaire who took the social media company Twitter private last year and rebranded it X, has outlined his grand plan for the platform at an \"all-hands\" virtual meeting.Subscri… [+283 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "OilPrice.com"
-                },
-                "author": "OilPrice.com",
-                "title": "Chinese EV Startup Secures Billion-Dollar Backing From U.S. Auto Giant",
-                "description": "While almost all other auto manufacturers, especially those from Japan, are mulling exits from China (where domestic brands are starting to dominate the EV market), Stellantis is doing the opposite and investing in an EV startup.  The U.S. based auto manufact…",
-                "url": "https://oilprice.com/Energy/Energy-General/Chinese-EV-Startup-Secures-Billion-Dollar-Backing-From-US-Auto-Giant.html",
-                "urlToImage": "https://d32r1sh890xpii.cloudfront.net/article/718x300/2023-10-27_wqcxspliuy.jpg",
-                "publishedAt": "2023-10-28T15:00:00Z",
-                "content": "The IEA has reiterated its…\r\nThe recent megamergers from ExxonMobil…\r\nResearch by Bloomberg shows that…\r\nBy ZeroHedge - Oct 28, 2023, 10:00 AM CDTWhile almost all other auto manufacturers, especially… [+2715 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Forbes"
-                },
-                "author": "Soulaima Gourani, Contributor, \n Soulaima Gourani, Contributor\n https://www.forbes.com/sites/soulaimagourani/",
-                "title": "Inspiring Stories Of Those Who Shaped America",
-                "description": "These stories serve as a reminder of the incredible value immigrants bring to this country.",
-                "url": "https://www.forbes.com/sites/soulaimagourani/2023/10/28/inspiring-stories-of-those-who-shaped-america/",
-                "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/653d1a67769fd3a10b02ac7e/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-                "publishedAt": "2023-10-28T14:36:03Z",
-                "content": "Concept of difficulties that immigrants suffer trying to enter in Usa.\r\ngetty\r\nToday we celebrate the immigrants who have not only shaped this nation but who continue to inspire us all.\r\nThe United S… [+3583 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "How Would Tesla Analysts Respond To SpaceX Going Public? Elon Musk And X Users React With Laughter To Speculations",
-                "description": "Tesla Inc. TSLA is a publicly traded stock under the ownership of billionaire Elon Musk, but his rocket manufacturing company, SpaceX, is not. If SpaceX were to go public, how might this development be received by Tesla analysts and President Joe Biden? What …",
-                "url": "https://biztoc.com/x/8a6f7e7dc09f650f",
-                "urlToImage": "https://c.biztoc.com/p/8a6f7e7dc09f650f/s.webp",
-                "publishedAt": "2023-10-28T14:34:08Z",
-                "content": "Tesla Inc. TSLA is a publicly traded stock under the ownership of billionaire Elon Musk, but his rocket manufacturing company, SpaceX, is not. If SpaceX were to go public, how might this development … [+295 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Tesla Signals Strategy Reversal, Ford To Go Slow On Electrification, Nikola's $165M Legal Windfall And More: Biggest EV Stories Of The Week",
-                "description": "Most major electric vehicle stocks declined in the week that ended on Oct. 27 amid the broader market weakness, with EV leader Tesla, Inc. TSLA extending its lean patch. The space could see some volatility in the near term, as EV companies are set to begin ro…",
-                "url": "https://biztoc.com/x/59916c427cc7848d",
-                "urlToImage": "https://c.biztoc.com/p/59916c427cc7848d/s.webp",
-                "publishedAt": "2023-10-28T14:34:08Z",
-                "content": "Most major electric vehicle stocks declined in the week that ended on Oct. 27 amid the broader market weakness, with EV leader Tesla, Inc. TSLA extending its lean patch. The space could see some vola… [+313 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Tesla CEO Elon Musk Offers To Solve $8.2B SF Downtown Rail Extension Problem For Just 1% Of Cost",
-                "description": "The Boring Company founder Elon Musk, on Saturday, touted his company as the future of underground tunnel transport in response to reports of rising costs of the San Francisco Downtown Rail extension. What Happened: The San Francisco Standard reported on Frid…",
-                "url": "https://biztoc.com/x/8d2124e05ff03470",
-                "urlToImage": "https://c.biztoc.com/p/8d2124e05ff03470/s.webp",
-                "publishedAt": "2023-10-28T14:34:08Z",
-                "content": "The Boring Company founder Elon Musk, on Saturday, touted his company as the future of underground tunnel transport in response to reports of rising costs of the San Francisco Downtown Rail extension… [+283 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Bulls And Bears: Tesla, Chevron, Eli Lilly And Dogecoin Co-founder's 3 Favorite Cryptos",
-                "description": "Benzinga examined the prospects for many investors' favorite stocks over the last week — here's a look at some of our top stories. This week saw significant declines in major averages, with the Dow, S&P 500, and Nasdaq dropping by 2.1%, 2.5%, and 2.6%, respec…",
-                "url": "https://biztoc.com/x/3482f7e878101eaa",
-                "urlToImage": "https://c.biztoc.com/p/3482f7e878101eaa/s.webp",
-                "publishedAt": "2023-10-28T14:34:07Z",
-                "content": "Benzinga examined the prospects for many investors' favorite stocks over the last week here's a look at some of our top stories.This week saw significant declines in major averages, with the Dow, S&a… [+309 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "ETF Daily News"
-                },
-                "author": "MarketBeat News",
-                "title": "Aquire Wealth Advisors LLC Purchases 76 Shares of Tesla, Inc. (NASDAQ:TSLA)",
-                "description": "Aquire Wealth Advisors LLC increased its holdings in Tesla, Inc. (NASDAQ:TSLA – Free Report) by 2.5% during the 2nd quarter, according to its most recent Form 13F filing with the SEC. The fund owned 3,117 shares of the electric vehicle producer’s stock after …",
-                "url": "https://www.etfdailynews.com/2023/10/28/aquire-wealth-advisors-llc-purchases-76-shares-of-tesla-inc-nasdaqtsla/",
-                "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tesla-inc-logo.png?v=20221020135629&w=240&h=240&zc=2",
-                "publishedAt": "2023-10-28T14:10:41Z",
-                "content": "Aquire Wealth Advisors LLC increased its holdings in Tesla, Inc. (NASDAQ:TSLA – Free Report) by 2.5% during the 2nd quarter, according to its most recent Form 13F filing with the SEC. The fund owned … [+6592 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Brandingmag.com"
-                },
-                "author": "John James",
-                "title": "Brand Campaigns, Part 4: Why and When Should You Use Them?",
-                "description": "Every marketer is inspired by famous video commercials, especially early in their career. You know, those emotional, cinematic ads from brands we all know and love. Ads that tug at our heart strings, entertain us, make us laugh, cry, and empathize. Transit sh…",
-                "url": "https://www.brandingmag.com/john-james/brand-campaigns-part-4-why-and-when-should-you-use-them/",
-                "urlToImage": "https://www.brandingmag.com/wp-content/uploads/2023/10/Cover_WhenWhyUseBrandCampaigns_JohnJames_Brandingmag-1200x628.jpg",
-                "publishedAt": "2023-10-28T14:04:23Z",
-                "content": "Every marketer is inspired by famous video commercials, especially early in their career. You know, those emotional, cinematic ads from brands we all know and love. Ads that tug at our heart strings,… [+41441 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Slashdot.org"
-                },
-                "author": "feedfeeder",
-                "title": "Hertz's embrace of Teslas isn't going so well - Business Insider",
-                "description": "Hertz's embrace of Teslas isn't going so wellBusiness Insider Hertz is scaling back its EV ambitions because its Teslas keep getting damagedThe Verge Hertz helped turn Tesla into a $1 trillion megacap stock. Now it’s become collateral damage in Elon Musk’s pr…",
-                "url": "https://slashdot.org/firehose.pl?op=view&amp;id=172125257",
-                "urlToImage": null,
-                "publishedAt": "2023-10-28T13:32:34Z",
-                "content": "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "businessinsider.com",
-                "title": "Hertz's embrace of Teslas isn't going so well",
-                "description": "Hertz is slowing down plans to include more electric cars in its fleet. • The firm said EVs have higher repair costs and have depreciated significantly. • Hertz said it would buy 100,000 Teslas in 2021. Embracing electric cars is proving much more complicated…",
-                "url": "https://biztoc.com/x/522ed0b490a371ac",
-                "urlToImage": "https://c.biztoc.com/p/522ed0b490a371ac/og.webp",
-                "publishedAt": "2023-10-28T13:30:10Z",
-                "content": "Hertz is slowing down plans to include more electric cars in its fleet.The firm said EVs have higher repair costs and have depreciated significantly.Hertz said it would buy 100,000 Teslas in 2021.Emb… [+287 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Wimp.com"
-                },
-                "author": "Ashley Dreiling",
-                "title": "Tesla bot update.",
-                "description": "Its coordination progress is insane.",
-                "url": "https://www.wimp.com/tesla-bot-update/",
-                "urlToImage": "https://www.wimp.com/wp-content/uploads/2023/10/tesla-bot-update-D2vj0WcvH5c.jpg",
-                "publishedAt": "2023-10-28T13:20:42Z",
-                "content": "Its coordination progress is insane."
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "nypost.com",
-                "title": "Elon Musk gives X employees a year to turn app into finance platform: ‘You won’t need a bank account’",
-                "description": "Elon Musk has given his employees at social media platform X a year to roll out a payments processing mechanism that will enable people to do away with their bank accounts. “When I say payments, I actually mean someone’s entire financial life,” Musk told his …",
-                "url": "https://biztoc.com/x/79c344e6cd508873",
-                "urlToImage": "https://c.biztoc.com/p/79c344e6cd508873/og.webp",
-                "publishedAt": "2023-10-28T13:16:05Z",
-                "content": "Elon Musk has given his employees at social media platform X a year to roll out a payments processing mechanism that will enable people to do away with their bank accounts.When I say payments, I actu… [+284 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Wattsupwiththat.com"
-                },
-                "author": "Guest Blogger",
-                "title": "Virginia – Don’t Follow Net-Zero Lemmings Over the Energy Cliff",
-                "description": "States that link climate and energy policies to California and ‘climate crisis’ will pay high price\nThe post Virginia – Don’t Follow Net-Zero Lemmings Over the Energy Cliff first appeared on Watts Up With That?.",
-                "url": "https://wattsupwiththat.com/2023/10/28/virginia-dont-follow-net-zero-lemmings-over-the-energy-cliff/",
-                "urlToImage": "https://wattsupwiththat.com/wp-content/uploads/2020/12/wuwt-logo.jpg",
-                "publishedAt": "2023-10-28T13:00:00Z",
-                "content": "States that link climate and energy policies to California and climate crisis will pay high price\r\nPaul Driessen\r\nSeventeen states including Virginia tie their vehicle emission standards and electric… [+7766 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Investopedia"
-                },
-                "author": "Staff Author",
-                "title": "ETFs Highly Exposed to the 'Magnificent 7' Have Been Pummeled Amid a Tech Selloff",
-                "description": "Lackluster earnings and soaring Treasury yields have dragged down big tech stocks and the ETFs exposed to them.",
-                "url": "https://www.investopedia.com/etfs-highly-exposed-to-the-magnificent-7-have-been-pummeled-amid-a-tech-selloff-8383792",
-                "urlToImage": "https://www.investopedia.com/thmb/Ge0hRRVaB_o28cd7c_CTHefVP9A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-457534494-4f7df7de2e5449f1accc433e1bb24272.jpg",
-                "publishedAt": "2023-10-28T12:55:45Z",
-                "content": "<ul><li>Some of the biggest tech-centric ETFs have fallen more than 6% since last Tuesday as shares of the Magificent 7 tech firms tumbled.</li><li>The Vanguard Mega Cap Growth ETF (MGK) and two ETFs… [+3882 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Notebookcheck.net"
-                },
-                "author": "Daniel Zlatev",
-                "title": "Tesla opens Cybertruck delivery event raffle for release date",
-                "description": "The Cybertruck release date is scheduled for November 30, and Tesla opened a delivery event lottery for those who would like to take part in the festivities at Giga Texas. The attendance roster will be rather limited to the shareholders who would want to go a…",
-                "url": "https://www.notebookcheck.net/Tesla-opens-Cybertruck-delivery-event-raffle-for-release-date.763178.0.html",
-                "urlToImage": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Tesla_Lithium_Groundbreaking_0061.jpg",
-                "publishedAt": "2023-10-28T12:33:00Z",
-                "content": "Tesla will be delivering its inaugural electric Cybertruck pickup at a grand launch event that it pegged for November 30, about two months after the deadline that Elon Musk scheduled in the spring. T… [+1739 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "ETF Daily News"
-                },
-                "author": "MarketBeat News",
-                "title": "Van ECK Associates Corp Sells 21,224 Shares of Tesla, Inc. (NASDAQ:TSLA)",
-                "description": "Van ECK Associates Corp reduced its position in Tesla, Inc. (NASDAQ:TSLA – Free Report) by 19.0% in the 2nd quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The institutional investor owned 90,248 shares…",
-                "url": "https://www.etfdailynews.com/2023/10/28/van-eck-associates-corp-sells-21224-shares-of-tesla-inc-nasdaqtsla/",
-                "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tesla-inc-logo.png?v=20221020135629&w=240&h=240&zc=2",
-                "publishedAt": "2023-10-28T12:24:43Z",
-                "content": "Van ECK Associates Corp reduced its position in Tesla, Inc. (NASDAQ:TSLA – Free Report) by 19.0% in the 2nd quarter, according to its most recent Form 13F filing with the Securities and Exchange Comm… [+6329 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "CleanTechnica"
-                },
-                "author": "Jennifer Sensiba",
-                "title": "Phoenix Uber Riders Can Now Order A Waymo Robotaxi",
-                "description": "A few years ago, I drove for Uber and Lyft in the Phoenix metro. People at the airport parking lots and Uber driver Facebook groups kept saying that robotaxis weren’t coming for our jobs, but I figured differently. We were already sharing the road with test v…",
-                "url": "https://cleantechnica.com/2023/10/28/phoenix-uber-riders-can-now-order-a-waymo-robotaxi/",
-                "urlToImage": "https://cleantechnica.com/files/2023/10/Uber-Waymo-Match-2000x1000-1.png",
-                "publishedAt": "2023-10-28T12:02:20Z",
-                "content": "Sign up for daily news updates from CleanTechnica on email. Or follow us on Google News!\r\nA few years ago, I drove for Uber and Lyft in the Phoenix metro. People at the airport parking lots and Uber … [+6817 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Motor Authority"
-                },
-                "author": "news@motorauthority.com (Viknesh Vijayenthiran), Viknesh Vijayenthiran",
-                "title": "2025 Porsche Taycan, 2024 Subaru BRZ tS: This Week's Top Photos",
-                "description": "Porsche is working on a mid-cycle update for its Taycan electric sedan and wagon, and a prototype spotted this week was wearing almost zero camouflage gear. While the styling updates look to be mild, there are rumors of a new performance flagship coming to ta…",
-                "url": "https://www.motorauthority.com/news/1138538_2025-porsche-taycan-2024-subaru-brz-ts-this-week-s-top-photos",
-                "urlToImage": "https://images.hgmsites.net/hug/2025-porsche-taycan-facelift-spy-shots--photo-credit-baldauf_100903750_h.webp",
-                "publishedAt": "2023-10-28T12:00:00Z",
-                "content": "Porsche is working on a mid-cycle update for its Taycan electric sedan and wagon, and a prototype spotted this week was wearing almost zero camouflage gear. While the styling updates look to be mild,… [+1831 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Forbes"
-                },
-                "author": "Alex Knapp, Forbes Staff, \n Alex Knapp, Forbes Staff\n https://www.forbes.com/sites/alexknapp/",
-                "title": "Current Climate: Humanity Is Close To Multiple Environmental Tipping Points",
-                "description": "This week’s Current Climate, which every Saturday brings you the latest news about the business of sustainability.",
-                "url": "https://www.forbes.com/sites/alanohnsman/2023/10/28/current-climate-humanity-is-close-to-multiple-environmental-tipping-points/",
-                "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/653c37759c09d200d79e0a76/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-                "publishedAt": "2023-10-28T12:00:00Z",
-                "content": "This weeks Current Climate, which every Saturday brings you the latest news about the business of sustainability. Sign up to get it in your inbox every week.\r\nGetty Images\r\nOn Wednesday, United Natio… [+3982 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "NDTV News"
-                },
-                "author": null,
-                "title": "After US Leader's Swipe, Elon Musk Promises Starlink Internet To Gaza",
-                "description": "Starlink will support connectivity to internationally recognised aid organisations in Gaza, Tesla chief Elon Musk said today.",
-                "url": "https://www.ndtv.com/world-news/elon-musk-says-starlink-will-support-connectivity-to-internationally-recognised-aid-groups-in-gaza-4522999",
-                "urlToImage": "https://c.ndtvimg.com/2023-10/2sr6mqqo_gaza-violence-afp_625x300_09_October_23.jpg",
-                "publishedAt": "2023-10-28T11:30:27Z",
-                "content": "Internet access and the phone network were completely cut across the Gaza Strip on Friday\r\nNew Delhi: Starlink will support connectivity to internationally recognised aid organisations in Gaza, Tesla… [+2449 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Kitploit.com"
-                },
-                "author": "noreply@blogger.com (Unknown)",
-                "title": "CloudPulse - AWS Cloud Landscape Search Engine",
-                "description": "During the reconnaissance phase, an attacker searches for any information about his target to create a profile that will later help him to identify possible ways to get in an organization. CloudPulse is a powerful tool that simplifies and enhances the analysi…",
-                "url": "https://www.kitploit.com/2023/10/cloudpulse-aws-cloud-landscape-search.html",
-                "urlToImage": "https://blogger.googleusercontent.com/img/a/AVvXsEgOLqa0ZHHC6WrbZ5y5smIbWedC2P0LfRWC6M2QrEjvgqWPRgCByI9RU4VZCwgwc7AcbNX7gbn1Qs34bOMV-fXPgEuqCDo9aK0GCm2JCM1vWSaZVkchgAnsnwwrC7fCshq0XXqcyE7KxkvQhldrVtppR8z-Ut0eF7QGEPED1gOVxrRbwPyhgBecfpf2vvAO=w640-h242",
-                "publishedAt": "2023-10-28T11:30:00Z",
-                "content": "During the reconnaissance phase, an attacker searches for any information about his target to create a profile that will later help him to identify possible ways to get in an organization. CloudPulse… [+2450 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "finbold.com",
-                "title": "This is when Bitcoin might hit the ‘highly anticipated’ $100k mark",
-                "description": "resurgence is driving increased interest in the possibility of the crypto hitting a new all-time high, with the $100,000 mark considered the next ideal level. Speculation about when it will reach the coveted $100,000 mark has been a constant topic of discussi…",
-                "url": "https://biztoc.com/x/d0704e52ab2cd0a9",
-                "urlToImage": "https://c.biztoc.com/p/d0704e52ab2cd0a9/s.webp",
-                "publishedAt": "2023-10-28T11:26:09Z",
-                "content": "resurgence is driving increased interest in the possibility of the crypto hitting a new all-time high, with the $100,000 mark considered the next ideal level. Speculation about when it will reach the… [+271 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "fortune.com",
-                "title": "Hertz helped turn Tesla into a trillion-dollar megacap stock. Now it’s become collateral damage in Elon Musk’s price wars",
-                "description": "Rental agency Hertz is learning the hard way that Tesla cars didn’t quite turn out to be the appreciating assets Elon Musk famously predicted they would be. And it can blame his strategy of driving volume through price cuts for that—as indeed it did on Thursd…",
-                "url": "https://biztoc.com/x/e5625e04dafa633e",
-                "urlToImage": "https://c.biztoc.com/p/e5625e04dafa633e/og.webp",
-                "publishedAt": "2023-10-28T11:22:06Z",
-                "content": "Rental agency Hertz is learning the hard way that Tesla cars didnt quite turn out to be the appreciating assets Elon Musk famously predicted they would be.And it can blame his strategy of driving vol… [+271 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Finbold.com"
-                },
-                "author": "Justinas Baltrusaitis",
-                "title": "This is when Bitcoin might hit the ‘highly anticipated’ $100k mark",
-                "description": "The recent Bitcoin (BTC) resurgence is driving increased interest in the possibility of the crypto hitting a new all-time high, … Continued\nThe post This is when Bitcoin might hit the ‘highly anticipated’ $100k mark appeared first on Finbold.",
-                "url": "https://finbold.com/this-is-when-bitcoin-might-hit-the-highly-anticipated-100k-mark/",
-                "urlToImage": "https://finbold.com/app/uploads/2023/10/This-is-Bitcoins-next-price-target-as-correction-is-ruled-out-1.jpg",
-                "publishedAt": "2023-10-28T11:13:36Z",
-                "content": "The recent Bitcoin (BTC) resurgence is driving increased interest in the possibility of the crypto hitting a new all-time high, with the $100,000 mark considered the next ideal level. Speculation abo… [+3408 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Hertz CEO Says Tesla EVs Cost The Company Owing To Price Cuts",
-                "description": "Car Rental Service Hertz Global Holdings Inc HTZ reflected on Tesla’s impact on its business during the company’s third quarter earnings call this week. What Happened: Electric vehicles bear a higher cost of collision and damage repair as compared to combusti…",
-                "url": "https://biztoc.com/x/d44c75e54c6bae18",
-                "urlToImage": "https://c.biztoc.com/p/d44c75e54c6bae18/s.webp",
-                "publishedAt": "2023-10-28T11:04:10Z",
-                "content": "Car Rental Service Hertz Global Holdings Inc HTZ reflected on Teslas impact on its business during the companys third quarter earnings call this week.What Happened: Electric vehicles bear a higher co… [+256 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Geely, Baidu’s JV Unveils Jiyue 01 EV: Priced Below Tesla Model Y",
-                "description": "The Jiyue 01, an electric vehicle resulting from the collaboration between Zhejiang Geely Holding Group Co. and Baidu Inc BIDU, was launched on Friday, underscoring the expansion and intensifying competition within the world’s largest automobile market for EV…",
-                "url": "https://biztoc.com/x/3675940f04f7329a",
-                "urlToImage": "https://c.biztoc.com/p/3675940f04f7329a/s.webp",
-                "publishedAt": "2023-10-28T11:04:09Z",
-                "content": "The Jiyue 01, an electric vehicle resulting from the collaboration between Zhejiang Geely Holding Group Co. and Baidu Inc BIDU, was launched on Friday, underscoring the expansion and intensifying com… [+278 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "aol.com",
-                "title": "Hertz's embrace of Teslas isn't going so well",
-                "description": "None Hertz is slowing down plans to include more electric cars in its fleet. • None The firm said EVs have higher repair costs and have depreciated significantly. • None Hertz said it would buy 100,000 Teslas in 2021. Embracing electric cars is proving much m…",
-                "url": "https://biztoc.com/x/cefe3fa7834a5870",
-                "urlToImage": "https://c.biztoc.com/p/cefe3fa7834a5870/s.webp",
-                "publishedAt": "2023-10-28T10:36:08Z",
-                "content": "None Hertz is slowing down plans to include more electric cars in its fleet.None The firm said EVs have higher repair costs and have depreciated significantly.None Hertz said it would buy 100,000 Tes… [+279 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Forbes"
-                },
-                "author": "Rina Torchinsky, Forbes Staff, \n Rina Torchinsky, Forbes Staff\n https://www.forbes.com/sites/rinatorchinsky/",
-                "title": "Best And Worst States To Buy An Electric Vehicle",
-                "description": "The Biden administration is shooting for 50% of all car sales to be electric vehicles by 2030. Thanks to generous state and federal on-the-spot rebates local dealers are gearing up for a sales boom.",
-                "url": "https://www.forbes.com/sites/rinatorchinsky/2023/10/28/best-and-worst-states-to-buy-an-electric-vehicle/",
-                "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/653c3c6c7a3a23abab886ba2/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-                "publishedAt": "2023-10-28T10:30:00Z",
-                "content": "The Biden administration is shooting for 50% of all new car sales to be electric vehicles by 2030. Thanks to generous state and federal on-the-spot rebates, local dealers are gearing up for a sales b… [+11143 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "aol.com",
-                "title": "Elon Musk appears to have given up on trying to camouflage his private-jet travels with an FAA program used by Jeff Bezos and Taylor Swift",
-                "description": "None Last year, Elon Musk stopped using an FAA program allowing jet owners to fly incognito, JetSpy said. • None Musk tried to thwart jet-tracking in the past, offering to pay a student to stop posting his flights online. • None There is no \"silver bullet\" to…",
-                "url": "https://biztoc.com/x/4f38b415b5341dd5",
-                "urlToImage": "https://c.biztoc.com/p/4f38b415b5341dd5/s.webp",
-                "publishedAt": "2023-10-28T10:08:07Z",
-                "content": "None Last year, Elon Musk stopped using an FAA program allowing jet owners to fly incognito, JetSpy said.None Musk tried to thwart jet-tracking in the past, offering to pay a student to stop posting … [+263 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "businessinsider.com",
-                "title": "Hertz's embrace of Teslas isn't going so well",
-                "description": "Hertz is running into unexpected challenges as it looks to electrify more of its rental fleet. Brandon Bell/Getty Images Hertz is slowing down plans to include more electric cars in its fleet. The firm said EVs have higher repair costs and have depreciated si…",
-                "url": "https://biztoc.com/x/12a5c53d0ad56697",
-                "urlToImage": "https://c.biztoc.com/p/12a5c53d0ad56697/s.webp",
-                "publishedAt": "2023-10-28T10:06:11Z",
-                "content": "Hertz is running into unexpected challenges as it looks to electrify more of its rental fleet. Brandon Bell/Getty ImagesHertz is slowing down plans to include more electric cars in its fleet. The fir… [+282 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Tech Xplore"
-                },
-                "author": "Barbara Ortutay",
-                "title": "Twitter takeover: 1 year later, X struggles with misinformation, advertising and usage decline",
-                "description": "One year ago, billionaire and new owner Elon Musk walked into Twitter's San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming the social media platform into what is now known as X.",
-                "url": "https://techxplore.com/news/2023-10-twitter-takeover-year-struggles-misinformation.html",
-                "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2023/twitter-takeover-1-yea.jpg",
-                "publishedAt": "2023-10-28T09:52:45Z",
-                "content": "One year ago, billionaire and new owner Elon Musk walked into Twitter's San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming… [+6032 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Investing.com"
-                },
-                "author": "U.Today",
-                "title": "Elon Musk’s Celebratory Tweet Sparks Grateful Reaction of Crypto Community",
-                "description": "Elon Musk’s Celebratory Tweet Sparks Grateful Reaction of Crypto Community",
-                "url": "https://www.investing.com/news/cryptocurrency-news/elon-musks-celebratory-tweet-sparks-grateful-reaction-of-crypto-community-3212617",
-                "urlToImage": "https://i-invdn-com.investing.com/news/Cryptocurrencies_800x533_L_1556528163.jpg",
-                "publishedAt": "2023-10-28T09:30:28Z",
-                "content": "U.Today - It has been a year, since bought Twitter in October 2022. He has posted a tweet to highlight a year anniversary since he closed the deal on purchasing the social media microblogging platfor… [+2963 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "u.today",
-                "title": "Elon Musk’s Celebratory Tweet Sparks Grateful Reaction of Crypto Community",
-                "description": "It has been a year, since Elon Musk bought Twitter in October 2022. He has posted a tweet to highlight a year anniversary since he closed the deal on purchasing the social media microblogging platform for $44 billion. «Freedom», the tech tycoon wrote, citing …",
-                "url": "https://biztoc.com/x/d285ebae87ca90e2",
-                "urlToImage": "https://c.biztoc.com/p/d285ebae87ca90e2/s.webp",
-                "publishedAt": "2023-10-28T09:20:05Z",
-                "content": "It has been a year, since Elon Musk bought Twitter in October 2022. He has posted a tweet to highlight a year anniversary since he closed the deal on purchasing the social media microblogging platfor… [+285 chars]"
-                },
-                {
-                "source": {
-                "id": "business-insider",
-                "name": "Business Insider"
-                },
-                "author": "Tim Levin",
-                "title": "Hertz's embrace of Teslas isn't going so well",
-                "description": "Hertz is slowing down its rollout of electric vehicles, citing higher repair costs and depreciation due to Tesla's aggressive price cuts.",
-                "url": "https://www.businessinsider.com/hertz-slows-down-electric-plans-tesla-2023-10",
-                "urlToImage": "https://i.insider.com/652ea6fd6561dd877e7c5f96?width=1200&format=jpeg",
-                "publishedAt": "2023-10-28T09:17:01Z",
-                "content": "Hertz is running into unexpected challenges as it looks to electrify more of its rental fleet. Brandon Bell/Getty Images\r\n<ul><li>Hertz is slowing down plans to include more electric cars in its flee… [+3336 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Tesla To Expand Supercharger Stops Into Merchandise Hubs",
-                "description": "Tesla Inc. TSLA is working on enhancing merchandise accessibility at additional Supercharger stations worldwide, turning charging into shopping time for customers. What Happened: “We are working to improve access to merch and amenities at more Superchargers w…",
-                "url": "https://biztoc.com/x/ba6a93dc1b81321a",
-                "urlToImage": "https://c.biztoc.com/p/ba6a93dc1b81321a/s.webp",
-                "publishedAt": "2023-10-28T09:12:09Z",
-                "content": "Tesla Inc. TSLA is working on enhancing merchandise accessibility at additional Supercharger stations worldwide, turning charging into shopping time for customers.What Happened: We are working to imp… [+275 chars]"
-                },
-                {
-                "source": {
-                "id": "business-insider",
-                "name": "Business Insider"
-                },
-                "author": "Grace Kay,Taylor Rains",
-                "title": "Elon Musk appears to have given up on trying to camouflage his private-jet travels with an FAA program used by Jeff Bezos and Taylor Swift",
-                "description": "Elon Musk had signed up for the FAA's PIA program that allows private jet owners to fly incognito, but he appears to have stopped using it for now.",
-                "url": "https://www.businessinsider.com/elon-musk-appears-no-longer-masking-private-jet-tracking-pia-2023-10",
-                "urlToImage": "https://i.insider.com/653a86af96f7540cd0668803?width=1200&format=jpeg",
-                "publishedAt": "2023-10-28T09:07:01Z",
-                "content": "Elon Musk appears to have stopped using a program that attempts to shield his jet travels, according to JetSpy.STEFANI REYNOLDS/AFP via Getty Images\r\n<ul>\n<li>Last year, Elon Musk stopped using an FA… [+4864 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "U.Today"
-                },
-                "author": "U.Today",
-                "title": "Elon Musk’s Celebratory Tweet Sparks Grateful Reaction of Crypto Community",
-                "description": "Tech billionaire Elon Musk has again unintentionally collected feedback to his tweet from crypto lovers",
-                "url": "https://u.today/elon-musks-celebratory-tweet-sparks-grateful-reaction-of-crypto-community",
-                "urlToImage": "https://u.today/sites/default/files/styles/twitter/public/2023-10/41521.jpg",
-                "publishedAt": "2023-10-28T09:06:00Z",
-                "content": "It has been a year since Elon Musk bought Twitter in October 2022. He has posted a tweet to highlight a year anniversary since he closed the deal on purchasing the social media microblogging platform… [+3412 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Forbes"
-                },
-                "author": "James Morris, Contributor, \n James Morris, Contributor\n https://www.forbes.com/sites/jamesmorris/",
-                "title": "BMW 5-Series Goes Electric And It’s Brilliant: New I5 Test Driven",
-                "description": "BMW's signature 5-Series is now available in EV form, with superb performance, precise handling and decent range. What's not to like? Maybe the price...",
-                "url": "https://www.forbes.com/sites/jamesmorris/2023/10/28/bmw-5-series-goes-electric-and-its-brilliant-new-i5-test-driven/",
-                "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/653aa6403ce4f614a6e0086a/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-                "publishedAt": "2023-10-28T09:00:00Z",
-                "content": "The BMW 5-Series is arguably the core of the brands DNA. Fast, luxurious, and still a drivers car despite its size, the 5 combines everything a BMW is meant to be in one vehicle. So its a surprise th… [+8950 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "InvestorsObserver"
-                },
-                "author": "InvestorsObserver",
-                "title": "XPEL Shareholder Action Reminder",
-                "description": "Securities Litigation Partner James (Josh) Wilson Encourages Investors Who Suffered Losses In XPEL To Contact Him Directly To Discuss Their Options   If you purchased or acquired securities in XPEL  and would like to discuss your legal rights, call Far...",
-                "url": "https://www.investorsobserver.com/news/qm-pr/5213455133699582",
-                "urlToImage": "https://s3.amazonaws.com/images.investorsobserver.com/io-logo-800x450.jpg",
-                "publishedAt": "2023-10-28T08:46:00Z",
-                "content": "News HomeMentioned in this article\r\nSecurities Litigation Partner James (Josh) Wilson Encourages Investors Who Suffered Losses In XPEL To Contact Him Directly To Discuss Their Options\r\nIf you purchas… [+2480 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Elon Musk's Cowboy Hat Stint At US-Mexico Border Surprised Officials, Reveals Freedom Of Information Act Request",
-                "description": "Emails obtained through a Freedom of Information Act request have uncovered that Elon Musk’s unanticipated visit to the U.S.-Mexico border surprised U.S. Border Patrol officials, offering a more comprehensive account of the events that transpired on Sept. 28.…",
-                "url": "https://biztoc.com/x/0ad0d9884ea92f0d",
-                "urlToImage": "https://c.biztoc.com/p/0ad0d9884ea92f0d/s.webp",
-                "publishedAt": "2023-10-28T08:30:08Z",
-                "content": "Emails obtained through a Freedom of Information Act request have uncovered that Elon Musks unanticipated visit to the U.S.-Mexico border surprised U.S. Border Patrol officials, offering a more compr… [+297 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "ETF Daily News"
-                },
-                "author": "MarketBeat News",
-                "title": "Tesla, Inc. (NASDAQ:TSLA) Given Consensus Recommendation of “Hold” by Analysts",
-                "description": "Tesla, Inc. (NASDAQ:TSLA – Get Free Report) has been given an average recommendation of “Hold” by the thirty-five research firms that are currently covering the stock, Marketbeat Ratings reports. Six research analysts have rated the stock with a sell recommen…",
-                "url": "https://www.etfdailynews.com/2023/10/28/tesla-inc-nasdaqtsla-given-consensus-recommendation-of-hold-by-analysts/",
-                "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tesla-inc-logo.png?v=20221020135629&w=240&h=240&zc=2",
-                "publishedAt": "2023-10-28T08:26:46Z",
-                "content": "Tesla, Inc. (NASDAQ:TSLA – Get Free Report) has been given an average recommendation of “Hold” by the thirty-five research firms that are currently covering the stock, Marketbeat Ratings reports. Six… [+5596 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "SoyaCincau.com"
-                },
-                "author": "Alexander Wong",
-                "title": "Why is the BYD Dolphin and Atto 3 taking so long to charge? Here’s why | EV Guide",
-                "description": "Similar to smartphones, different electric vehicles (EV) have their own supported AC and DC fast charging speed. Most EVs from China such as the BYD Dolphin, BYD Atto 3, GWM Ora Good Cat and the Neta V come with a single-phase onboard charger and as a result,…",
-                "url": "https://soyacincau.com/2023/10/28/why-byd-dolphin-atto-3-taking-so-long-to-charge-ac-dc-ev-charging-guide/",
-                "urlToImage": "https://soyacincau.com/wp-content/uploads/2023/10/231026-byd-dolphin-AC-ev-charging.jpg",
-                "publishedAt": "2023-10-28T08:23:44Z",
-                "content": "Similar to smartphones, different electric vehicles (EV) have their own supported AC and DC fast charging speed. Most EVs from China such as the BYD Dolphin, BYD Atto 3, GWM Ora Good Cat and the Neta… [+4357 chars]"
-                },
-                {
-                "source": {
-                "id": "fox-news",
-                "name": "Fox News"
-                },
-                "author": "Joe Schoffstall, Thomas Catenacci",
-                "title": "Biden climate czar quietly met with flailing EV company dependent on taxpayer handouts",
-                "description": "President Biden's clean energy czar, John Podesta, who oversees billions worth of green energy loans and grants, quietly met with the head of Rivian, a struggling electric vehicle maker.",
-                "url": "https://www.foxnews.com/politics/biden-climate-czar-quietly-met-flailing-ev-company-dependent-taxpayer-handouts",
-                "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/10/Joes-split.jpg",
-                "publishedAt": "2023-10-28T08:00:11Z",
-                "content": "John Podesta, President Biden's clean energy czar, quietly assembled with the head of an electric vehicle (EV) company that relies heavily on taxpayer handouts and has floundered financially since it… [+6247 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "[Removed]"
-                },
-                "author": null,
-                "title": "[Removed]",
-                "description": "[Removed]",
-                "url": "https://removed.com",
-                "urlToImage": null,
-                "publishedAt": "1970-01-01T00:00:00Z",
-                "content": "[Removed]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Geeky Gadgets"
-                },
-                "author": "Julian Horsey",
-                "title": "What is Multimodal Artificial Intelligence (AI)?",
-                "description": "If you have engaged with the latest ChatGPT-4 AI model or perhaps the latest Google search engine, you will of already used multimodal artificial intelligence.  However just a few years ago such easy access to multimodal AI was only a dream. In this guide wil…",
-                "url": "https://www.geeky-gadgets.com/what-is-multimodal-ai/",
-                "urlToImage": "https://www.geeky-gadgets.com/wp-content/uploads/2023/10/What-is-Multimodal-AI.jpg",
-                "publishedAt": "2023-10-28T07:29:02Z",
-                "content": "If you have engaged with the latest ChatGPT-4 AI model or perhaps the latest Google search engine, you will of already used multimodal artificial intelligence.  However just a few years ago such easy… [+9055 chars]"
-                },
-                {
-                "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-                },
-                "author": "AP",
-                "title": "Twitter takeover: 1 year later, X struggles with misinformation, advertising and usage decline",
-                "description": "Musk has dismantled core features of what made Twitter, Twitter - its name and blue bird logo, its verification system, its Trust and Safety advisory group. Not to mention content moderation and hate speech enforcement.",
-                "url": "https://economictimes.indiatimes.com/tech/technology/twitter-takeover-1-year-later-x-struggles-with-misinformation-advertising-and-usage-decline/articleshow/104774884.cms",
-                "urlToImage": "https://img.etimg.com/thumb/msid-104774910,width-1200,height-630,imgsize-187054,overlay-ettech/photo.jpg",
-                "publishedAt": "2023-10-28T07:17:14Z",
-                "content": "One year ago, billionaire and new owner Elon Musk walked into Twitter's San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming… [+5865 chars]"
-                },
-                {
-                "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-                },
-                "author": "New York Times",
-                "title": "The consequences of Elon Musk's ownership of X",
-                "description": "The war between Israel and Hamas -- the sort of major news event that once made Twitter an essential source of information and debate -- has drowned all social media platforms in false and misleading information, but for Musk's platform in particular the war …",
-                "url": "https://economictimes.indiatimes.com/tech/technology/the-consequences-of-elon-musks-ownership-of-x/articleshow/104773632.cms",
-                "urlToImage": "https://img.etimg.com/thumb/msid-104773645,width-1200,height-630,imgsize-104138,overlay-ettech/photo.jpg",
-                "publishedAt": "2023-10-28T06:28:36Z",
-                "content": "Now rebranded as X, the site formerly known as Twitter has experienced a surge in racist, antisemitic and other hateful speech. Under Elon Musk's watch, millions of people have been exposed to misinf… [+10382 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "InfoQ.com"
-                },
-                "author": "Renato Losio",
-                "title": "Tesla Introduces Official Developer APIs for Third-Party Integration",
-                "description": "Tesla has recently unveiled its first API documentation to support the integration of third-party applications. While primarily designed for fleet management, these APIs have captured the interest of developers, who see it as a potential starting point for th…",
-                "url": "https://www.infoq.com/news/2023/10/tesla-developer-apis/",
-                "urlToImage": "https://res.infoq.com/news/2023/10/tesla-developer-apis/en/headerimage/generatedHeaderImage-1698263762109.jpg",
-                "publishedAt": "2023-10-28T05:34:00Z",
-                "content": "Tesla has recently unveiled its first API documentation to support the integration of third-party applications. While primarily designed for fleet management, these APIs have captured the interest of… [+3337 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Former Lawyer Says He 'Felt Absolutely Nothing' During Face-Off With Trump At New York Fraud Trial",
-                "description": "Former attorney Michael Cohen expressed complete emotional detachment when he faced former President Donald Trump in a New York civil fraud trial. What Happened: Cohen, in a CNN interview, revealed that he “felt absolutely nothing” during his face-to-face enc…",
-                "url": "https://biztoc.com/x/937f3eab38baea11",
-                "urlToImage": "https://c.biztoc.com/p/937f3eab38baea11/s.webp",
-                "publishedAt": "2023-10-28T04:30:08Z",
-                "content": "Former attorney Michael Cohen expressed complete emotional detachment when he faced former President Donald Trump in a New York civil fraud trial.What Happened: Cohen, in a CNN interview, revealed th… [+302 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Investment Chief Proposes Adding Warren Buffett's Berkshire Hathaway To 'Magnificent Seven'",
-                "description": "The ‘Magnificent Seven,’ a group comprising seven mega-cap growth stocks, should be expanded to include Warren Buffett’s Berkshire Hathaway Inc. BRK BRK, according to the investment chief of a wealth consulting group. What Happened: The current ‘Magnificent S…",
-                "url": "https://biztoc.com/x/03f244550b408570",
-                "urlToImage": "https://c.biztoc.com/p/03f244550b408570/s.webp",
-                "publishedAt": "2023-10-28T04:30:08Z",
-                "content": "The Magnificent Seven, a group comprising seven mega-cap growth stocks, should be expanded to include Warren Buffetts Berkshire Hathaway Inc. BRK BRK, according to the investment chief of a wealth co… [+325 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Electrek"
-                },
-                "author": "Jameson Dow",
-                "title": "Tesla opens shareholder lottery for Cybertruck delivery event tickets",
-                "description": "Tesla is holding a lottery for tickets to its upcoming Cybertruck delivery event on November 30th at its Texas Gigafactory in Austin.\n more…\nThe post Tesla opens shareholder lottery for Cybertruck delivery event tickets appeared first on Electrek.",
-                "url": "https://electrek.co/2023/10/27/tesla-opens-shareholder-lottery-for-cybertruck-delivery-event-tickets/",
-                "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2023/10/Cybertruck_Hero__Desktop_RSVP.jpg.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-                "publishedAt": "2023-10-28T04:30:00Z",
-                "content": "Tesla is holding a lottery for tickets to its upcoming Cybertruck delivery event on November 30th at its Texas Gigafactory in Austin.\r\nThe Cybertruck is nearing release, and we’ve been seeing more an… [+2034 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Freerepublic.com"
-                },
-                "author": "Daily wire",
-                "title": "Cost Of Driving Electric Vehicle Equal To Paying $17.33 Per Gallon Of Gasoline, Study Finds",
-                "description": "A comprehensive new study of electric vehicles shows that the cost of running them is far more expensive than has been commonly thought. Brent Bennett and Jason Isaac issued their report for the Texas Public Policy Foundation, pointing out that advocates for …",
-                "url": "https://freerepublic.com/focus/f-news/4192827/posts",
-                "urlToImage": null,
-                "publishedAt": "2023-10-28T04:18:54Z",
-                "content": "Skip to comments.\r\nCost Of Driving Electric Vehicle Equal To Paying $17.33 Per Gallon Of Gasoline, Study FindsDaily wire ^\r\n | By Hank Berrien\r\nPosted on 10/27/2023 9:18:54 PM PDT by NoLibZone\r\nA com… [+3583 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "The Boston Globe"
-                },
-                "author": "The Associated Press",
-                "title": "Today in History: October 28, Benito Mussolini takes power in Italy",
-                "description": "Today is Saturday, Oct. 28, the 301st day of 2023. There are 64 days left in the year.",
-                "url": "https://www.bostonglobe.com/2023/10/28/metro/today-history-october-28-benito-mussolini-takes-power-italy/",
-                "urlToImage": "https://www.bostonglobe.com/pf/resources/images/logo-bg.jpg?d=437",
-                "publishedAt": "2023-10-28T04:10:00Z",
-                "content": "In 1636, the General Court of Massachusetts passed a legislative act establishing Harvard College.\r\nIn 1726, the original edition of Gullivers Travels, a satirical novel by Jonathan Swift, was first … [+2352 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "morningbrew.com",
-                "title": "Automakers are walking back their EV growth plans",
-                "description": "Some of the biggest car companies in the world are hitting Ctrl-Z on their electric vehicle ambitions as consumer demand lags behind what the industry expected. Ford announced yesterday that it’s postponing $12 billion in spending on EV manufacturing expansio…",
-                "url": "https://biztoc.com/x/147f8fafc6f2e86e",
-                "urlToImage": "https://c.biztoc.com/p/147f8fafc6f2e86e/s.webp",
-                "publishedAt": "2023-10-28T04:06:12Z",
-                "content": "Some of the biggest car companies in the world are hitting Ctrl-Z on their electric vehicle ambitions as consumer demand lags behind what the industry expected.Ford announced yesterday that its postp… [+271 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "blogTO"
-                },
-                "author": "Misha Gajewski",
-                "title": "There's a funky attic space hidden inside this $4 million Toronto home",
-                "description": "Square rooms are so passé — triangle-shaped rooms are where it's at. \r\nOr, at least, they are in 72 Ellis Park Rd. \r\nThis impressive home overlooking High Park offers style, luxury, and the coolest attic ever.\r\nThe front entrance and living room. \r\nListed for…",
-                "url": "https://www.blogto.com/real-estate-toronto/2023/10/72-ellis-park-road-toronto/",
-                "urlToImage": "https://media.blogto.com/articles/20231026-72ellispark.jpeg?w=1200&cmd=resize_then_crop&height=630&quality=70",
-                "publishedAt": "2023-10-28T04:01:00Z",
-                "content": "Square rooms are so passé triangle-shaped rooms are where it's at. \r\nOr, at least, they are in 72 Ellis Park Rd. \r\nThis impressive home overlooking High Park offers style, luxury, and the coolest att… [+2484 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "CleanTechnica"
-                },
-                "author": "Guest Contributor",
-                "title": "Tesla’s Giga Berlin Expansion Set To Kick Off In Early 2024 Amid Controversy",
-                "description": "Tesla has revealed its aspirations to commence its Giga Berlin expansion project in the first half of 2024. This announcement comes against the backdrop of ongoing public debates surrounding the project’s scope and impact. The expansion initiative aims to mod…",
-                "url": "https://cleantechnica.com/2023/10/27/teslas-giga-berlin-expansion-set-to-kick-off-in-early-2024-amid-controversy/",
-                "urlToImage": "http://cleantechnica.com/files/2021/08/GigaBerlin-Desktop-V4_e60c8302-c331-40ff-b5cd-3e518b9e5251-1.jpg",
-                "publishedAt": "2023-10-28T03:57:11Z",
-                "content": "Sign up for daily news updates from CleanTechnica on email. Or follow us on Google News!\r\nTesla has revealed its aspirations to commence its Giga Berlin expansion project in the first half of 2024. T… [+2643 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Tesla To Pick Select Shareholders For Cybertruck Delivery Event Via Lottery: Details Inside",
-                "description": "Electric vehicle giant Tesla Inc TSLA has launched a Cybertruck Delivery Event shareholder lottery to determine which shareholders will be attending the much-awaited event to be held at Gigafactory Texas on Nov. 30. What Happened: Only a limited number of sha…",
-                "url": "https://biztoc.com/x/8bc175a75f3500d8",
-                "urlToImage": "https://c.biztoc.com/p/8bc175a75f3500d8/s.webp",
-                "publishedAt": "2023-10-28T03:20:06Z",
-                "content": "Electric vehicle giant Tesla Inc TSLA has launched a Cybertruck Delivery Event shareholder lottery to determine which shareholders will be attending the much-awaited event to be held at Gigafactory T… [+284 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Freerepublic.com"
-                },
-                "author": "The Street",
-                "title": "Former Ford CEO has a blunt warning for the electric vehicle industry (The US auto industry, is in total denial)",
-                "description": "Ford's EV business posted a big loss for the third quarter.. The strike against Ford may be over, but the company's electric vehicle woes are far from solved. The entire auto industry, grappling with steadily softening EV demand over cost and existential infr…",
-                "url": "https://freerepublic.com/focus/f-news/4192814/posts",
-                "urlToImage": null,
-                "publishedAt": "2023-10-28T02:40:18Z",
-                "content": "Skip to comments.\r\nFormer Ford CEO has a blunt warning for the electric vehicle industry (The US auto industry, is in total denial)The Street ^\r\n | 9 hours ago\r\n | Ian Krietzberg\r\nPosted on 10/27/202… [+2386 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "benzinga.com",
-                "title": "Threat For Tinder, Bumble? Tesla CEO Elon Musk Reportedly Reveals Plan To Turn X Into Dating App, Digital Bank By 2024",
-                "description": "Tesla CEO Elon Musk reportedly unveiled surprising plans for his platform X during a company-wide meeting. What Happened: Challenging the realms of Tinder and Bumble BMBL, Musk said he intends to transform X into a full fledged dating site and a digital bank …",
-                "url": "https://biztoc.com/x/8f2a39a0219ef25d",
-                "urlToImage": "https://c.biztoc.com/p/8f2a39a0219ef25d/s.webp",
-                "publishedAt": "2023-10-28T02:38:08Z",
-                "content": "Tesla CEO Elon Musk reportedly unveiled surprising plans for his platform X during a company-wide meeting.What Happened: Challenging the realms of Tinder and Bumble BMBL, Musk said he intends to tran… [+294 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "The Punch"
-                },
-                "author": "Branded Content",
-                "title": "Dogecoin (DOGE) Sets Sights on Double-Digit Growth; InQubeta (QUBE) Sets Market Ablaze",
-                "description": "The cryptocurrency market has had a stellar few months where both old and new altcoins trumped analysts’ expectations with their prices. Among the top winners, InQubeta (QUBE)and Dogecoin were the ones that grabbed the most attention. While InQubeta set the c…",
-                "url": "https://punchng.com/dogecoin-doge-sets-sights-on-double-digit-growth-inqubeta-qube-sets-market-ablaze/",
-                "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2023/10/28072223/cat.jpg",
-                "publishedAt": "2023-10-28T02:19:31Z",
-                "content": "The cryptocurrency market has had a stellar few months where both old and new altcoins trumped analysts’ expectations with their prices. Among the top winners, InQubeta (QUBE)and Dogecoin were the on… [+4525 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "zerohedge.com",
-                "title": "The Graphite Grip: How China's Crackdown On Exports Threatens Global EV Battery Supply Chain",
-                "description": "The Graphite Grip: How China's Crackdown On Exports Threatens Global EV Battery Supply Chain China's retaliatory restriction on graphite exports will have a disproportionate impact on foreign makers of electric vehicle battery components which haven't shifted…",
-                "url": "https://biztoc.com/x/3873eb48b797a9d2",
-                "urlToImage": "https://c.biztoc.com/p/3873eb48b797a9d2/s.webp",
-                "publishedAt": "2023-10-28T01:56:06Z",
-                "content": "The Graphite Grip: How China's Crackdown On Exports Threatens Global EV Battery Supply Chain\r\nChina's retaliatory restriction on graphite exports will have a disproportionate impact on foreign makers… [+315 chars]"
-                },
-                {
-                "source": {
-                "id": "fox-news",
-                "name": "Fox News"
-                },
-                "author": "Alexander Hall",
-                "title": "South Park lauded for mocking Disney's 'woke gender and race-swapping' reboots: 'A national treasure'",
-                "description": "Clips from \"South Park: Joining the Panderverse\" went viral across social media Friday for mocking Disney for changing their characters and making them woke.",
-                "url": "https://www.foxnews.com/media/south-park-lauded-mocking-disneys-woke-gender-race-swapping-reboots-national-treasure",
-                "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/10/South-Park.png",
-                "publishedAt": "2023-10-28T01:47:50Z",
-                "content": "Clips from a TV special of the show \"South Park\" went viral online Friday for mocking Disney CEO Bob Iger, Lucasfilm president Kathleen Kennedy and the Disney Company's widely criticized pandering to… [+3273 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Variety"
-                },
-                "author": "Adam B. Vary",
-                "title": "‘Loki’ Head Writer Eric Martin on That Cliffhanger and His Secret Rule for Season 2",
-                "description": "SPOILER ALERT: This story involves discussion of major plot developments in Season 2, Episode 4 of “Loki,” currently streaming on Disney+. When Eric Martin started writing the Season 1 finale of “Loki” (along with then-head writer Michael Waldron), he already…",
-                "url": "https://variety.com/2023/tv/news/loki-cliffhanger-ending-eric-martin-1235771252/",
-                "urlToImage": "https://variety.com/wp-content/uploads/2023/10/Screen-Shot-2023-10-27-at-5.16.36-PM.png?w=1000&h=563&crop=1",
-                "publishedAt": "2023-10-28T01:32:05Z",
-                "content": "SPOILER ALERT: This story involves discussion of major plot developments in Season 2, Episode 4 of “Loki,” currently streaming on Disney+.\r\nWhen Eric Martin started writing the Season 1 finale of “Lo… [+9192 chars]"
-                },
-                {
-                "source": {
-                "id": "cbc-news",
-                "name": "CBC News"
-                },
-                "author": null,
-                "title": "1 person hospitalized after vehicle crashes into hotdog store in Richmond",
-                "description": "A vehicle crashed into a hotdog store at a busy intersection in the Metro Vancouver municipality of Richmond Friday morning. One person was sent to hospital in critical condition.",
-                "url": "https://www.cbc.ca/news/canada/british-columbia/hot-dog-store-car-crash-richmond-1.7011457",
-                "urlToImage": "https://i.cbc.ca/1.7011468.1698453896!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/hot-dog-store-crash.jpg",
-                "publishedAt": "2023-10-28T01:03:36Z",
-                "content": "A car crashed into a hotdog store Friday morning at a busy intersection in Richmond, B.C., sending one person to hospital in critical condition.\r\nPhotos and videos on social media show a grey Tesla e… [+601 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Chicago Tribune"
-                },
-                "author": "Robert Channick",
-                "title": "EVBox launches fast-charger production in Libertyville, as part of national push for widespread EV adoption",
-                "description": "Netherlands-based EVBox, which opened its North American headquarters and plant in Libertyville, is rolling out a new public fast-charger it hopes will help get the U.S. on the road to widespread EV adoption.",
-                "url": "https://www.chicagotribune.com/business/ct-biz-ev-fast-charger-production-evbox-20231028-h2kn2djz4rfnlmxk4sp4q2nxja-story.html",
-                "urlToImage": "https://www.chicagotribune.com/resizer/wxshg1RoSj_aUREWhbk5adU5J4M=/1200x630/filters:format(jpg):quality(70):focal(3553x1486:3563x1496)/cloudfront-us-east-1.images.arcpublishing.com/tronc/7EBXVQULNFCF5EYPPQGC3XWS6I.JPG",
-                "publishedAt": "2023-10-28T00:58:36Z",
-                "content": "Netherlands-based EVBox, which opened its North American headquarters and plant in Libertyville, is rolling out a new public fast-charger it hopes will help get the U.S. on the road to widespread ado… [+7769 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Bangkok Post"
-                },
-                "author": "Ambiyah Abdullah & Auliya Febriyanti",
-                "title": "New plan could benefit Asean's EVs",
-                "description": "The need for clean energy technology deployment towards global net-zero emissions is becoming more critical. To meet the net-zero emission target in 2030 and reduce global energy consumption to 7% less than the level in 2020, a massive deployment of clean ene…",
-                "url": "https://www.bangkokpost.com/opinion/opinion/2673343/new-plan-could-benefit-aseans-evs",
-                "urlToImage": "https://static.bangkokpost.com/media/content/dcx/2023/10/28/4939658_700.jpg",
-                "publishedAt": "2023-10-28T00:49:00Z",
-                "content": "The need for clean energy technology deployment towards global net-zero emissions is becoming more critical. To meet the net-zero emission target in 2030 and reduce global energy consumption to 7% le… [+6171 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "investing.com",
-                "title": "Ford shares fall after pulling full-year forecast, wider losses in EV unit",
-                "description": "Shares of Ford Motor (NYSE: ) Co closed down 12.3% on Friday, after the automaker reported a wider loss from its electric-vehicle (EV) business due to pressures from a price war, sparked by industry leader Tesla (NASDAQ: ). The Detroit automaker also pulled i…",
-                "url": "https://biztoc.com/x/23a3e6f1113c4a5f",
-                "urlToImage": "https://c.biztoc.com/p/23a3e6f1113c4a5f/s.webp",
-                "publishedAt": "2023-10-28T00:28:05Z",
-                "content": "Shares of Ford Motor (NYSE: ) Co closed down 12.3% on Friday, after the automaker reported a wider loss from its electric-vehicle (EV) business due to pressures from a price war, sparked by industry … [+291 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "CNA"
-                },
-                "author": null,
-                "title": "Ford shares fall after pulling full-year forecast, wider losses in EV unit",
-                "description": ":Shares of Ford Motor Co closed down 12.3 per cent on Friday, after the automaker reported a wider loss from its electric-vehicle (EV) business due to pressures from a price war, sparked by industry leader Tesla.The Detroit automaker also pulled its 2023 fore…",
-                "url": "https://www.channelnewsasia.com/business/ford-shares-fall-after-pulling-full-year-forecast-wider-losses-ev-unit-3879211",
-                "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--IlSmpLWC--/fl_relative,g_south_east,l_one-cms:core:watermark:reuters,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2023-10-27t235901z_2_lynxmpej9q0ja_rtroptp_3_ford-motor-results.jpg?itok=5KcCnPN0",
-                "publishedAt": "2023-10-27T23:59:01Z",
-                "content": ":Shares of Ford Motor Co closed down 12.3 per cent on Friday, after the automaker reported a wider loss from its electric-vehicle (EV) business due to pressures from a price war, sparked by industry … [+1758 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Global News"
-                },
-                "author": "Sean Previl",
-                "title": "X struggles with usage decline and misinformation 1 year after Musk takeover - National | Globalnews.ca",
-                "description": "X looks and feels something like Twitter, but the more time you spend on it the clearer it becomes that it's merely an approximation.",
-                "url": "https://globalnews.ca/news/10055217/twitter-takeover-one-year-later/",
-                "urlToImage": "https://globalnews.ca/wp-content/uploads/2023/10/twitter-x-one-year-later.jpg?quality=85&strip=all&w=720&h=379&crop=1",
-                "publishedAt": "2023-10-27T23:41:26Z",
-                "content": "One year ago, billionaire and new owner Elon Musk walked into Twitter’s San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming… [+5564 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Power Line"
-                },
-                "author": "John Hinderaker",
-                "title": "Green Dreams Going Up In Smoke",
-                "description": "Wind and solar are both terrible methods of generating electricity, both expensive and unreliable. The one thing that can make the situation worse is the drive to electrify everything, including motor vehicles. The impracticality of this “green” vision has be…",
-                "url": "http://www.powerlineblog.com/archives/2023/10/green-dreams-going-up-in-smoke.php",
-                "urlToImage": "",
-                "publishedAt": "2023-10-27T23:18:58Z",
-                "content": "Wind and solar are both terrible methods of generating electricity, both expensive and unreliable. The one thing that can make the situation worse is the drive to electrify everything, including moto… [+4150 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "New Zealand Herald"
-                },
-                "author": "Anne Gibson",
-                "title": "Dark, moody, indigenous: What it’s like inside Fisher & Paykel Appliances’ luxury Auckland Experience Centre",
-                "description": "'This is a physical manifestation of our brand.' - Mark Elmore",
-                "url": "https://www.nzherald.co.nz/business/dark-moody-indigenous-what-its-like-inside-fisher-paykel-appliances-luxury-auckland-experience-centre/E4U3J7BO7FF3TDDCHK3EFPBB6E/",
-                "urlToImage": "https://www.nzherald.co.nz/resizer/y4lSAm17pJSH6rhsP1IdJeETfu4=/1200x675/smart/filters:quality(70)/cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/2RLXA4KVPRDFNH4SPH27U2O7C4.jpg",
-                "publishedAt": "2023-10-27T23:00:00Z",
-                "content": "Fisher &amp; Paykel Appliances' Michael Elmore inside the new Auckland Experience Centre. Photo / Michael CraigA muehlenbeckia chandelier hangs above one kitchen showroom, a harakeke installation is … [+8127 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "finance.yahoo.com",
-                "title": "Tesla, EV Investors Face a Reckoning",
-                "description": "The electric-vehicle boom that spawned multibillion dollar startups overnight and pushed Tesla Inc.’s value into the stratosphere is starting to flounder just a few years after it began. • None Israel Latest: Iranian Minister Warns US Over Support of Israel •…",
-                "url": "https://biztoc.com/x/f85d3264555e21d3",
-                "urlToImage": "https://c.biztoc.com/p/f85d3264555e21d3/og.webp",
-                "publishedAt": "2023-10-27T22:30:10Z",
-                "content": "The electric-vehicle boom that spawned multibillion dollar startups overnight and pushed Tesla Inc.s value into the stratosphere is starting to flounder just a few years after it began.None Israel La… [+306 chars]"
-                },
-                {
-                "source": {
-                "id": "espn",
-                "name": "ESPN"
-                },
-                "author": null,
-                "title": "Trial date for Memphis' Williams set for Dec. 14",
-                "description": "A request to raise star Memphis basketball recruit Mikey Williams' bail was denied Friday by a judge who set a trial start date of Dec. 14 for Williams, who faces 9 total charges stemming from a March 27 shooting incident.",
-                "url": "https://www.espn.com/mens-college-basketball/story/_/id/38758259/request-raise-mikey-williams-bail-denied-trial-set-dec-14",
-                "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1107%2Fr1087850_1296x729_16%2D9.jpg",
-                "publishedAt": "2023-10-27T22:22:01Z",
-                "content": "Oct 27, 2023, 06:09 PM ET\r\nEL CAJON, Calif. -- A San Diego County Superior Court judge on Friday rejected a request to raise star Memphis basketball recruit Mikey Williams' bail for what the prosecut… [+3668 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "KPBS"
-                },
-                "author": "Wyatte Grantham-Philips",
-                "title": "Cruise, GM's robo-taxi service, suspends all driverless operations nationwide",
-                "description": "U.S. regulators have been investigating Cruise’s operations after receiving incident reports that suggested risks to pedestrian and passenger safety.",
-                "url": "https://www.kpbs.org/news/public-safety/2023/10/27/cruise-gms-robo-taxi-service-suspends-all-driverless-operations-nationwide",
-                "urlToImage": "https://cdn.kpbs.org/dims4/default/9018452/2147483647/strip/true/crop/3556x1867+0+252/resize/1200x630!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F88%2F1e%2Fb66648ca483f92d6105726ebd390%2Fgmcruise.jpeg",
-                "publishedAt": "2023-10-27T22:06:36Z",
-                "content": "Cruise, the autonomous vehicle unit owned by General Motors, is suspending driverless operations nationwide days after regulators in California found that its driverless cars posed a danger to public… [+5397 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Investing.com"
-                },
-                "author": "Reuters",
-                "title": "Frazzled U.S. stock investors eye frothy Treasury market as Fed looms",
-                "description": "Frazzled U.S. stock investors eye frothy Treasury market as Fed looms",
-                "url": "https://www.investing.com/news/economy/frazzled-us-stock-investors-eye-frothy-treasury-market-as-fed-looms-3212543",
-                "urlToImage": "https://i-invdn-com.investing.com/news/indicatornews_5_800x533_L_1412601619.jpg",
-                "publishedAt": "2023-10-27T22:00:43Z",
-                "content": "By David Randall\r\nNEW YORK (Reuters) - Financial markets are bracing for what could be a momentous week, with a Federal Reserve meeting, U.S. employment data and earnings from technology heavyweight … [+3877 chars]"
-                },
-                {
-                "source": {
-                "id": "abc-news",
-                "name": "ABC News"
-                },
-                "author": "BARBARA ORTUTAY AP technology writer",
-                "title": "Twitter takeover: 1 year later, X struggles with misinformation, advertising and usage decline",
-                "description": "One year ago, billionaire Elon Musk walked into Twitter’s San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming the social media platform into what is now known as X",
-                "url": "https://abcnews.go.com/US/wireStory/twitter-takeover-1-year-struggles-misinformation-advertising-usage-104415702",
-                "urlToImage": "https://i.abcnewsfe.com/a/abc52358-6a40-4abe-8592-6b9d2a5b9c49/wirestory_ac2cb6419d93d64086cc9ad980c5a57a_16x9.jpg?w=992",
-                "publishedAt": "2023-10-27T21:58:29Z",
-                "content": "SAN FRANCISCO -- One year ago, billionaire and new owner Elon Musk walked into Twitter's San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and b… [+5412 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "MarketWatch"
-                },
-                "author": "MarketWatch Automation",
-                "title": "Company Close Updates: Workhorse Group Inc. stock falls Friday, underperforms market",
-                "description": "Shares of Workhorse Group Inc. slid 2.91% to $0.39 Friday, on what proved to be an all-around mixed trading session for the stock market, with the NASDAQ...",
-                "url": "https://www.marketwatch.com/data-news/workhorse-group-inc-stock-falls-friday-underperforms-market-076fbc60-19c53723bbb1",
-                "urlToImage": "https://images.mktw.net/im-220105/social",
-                "publishedAt": "2023-10-27T21:40:51Z",
-                "content": "Shares of Workhorse Group Inc. \r\n WKHS,\r\n -2.91%\r\nslid 2.91% to $0.39 Friday, on what proved to be an all-around mixed trading session for the stock market, with the NASDAQ Composite Index \r\n COMP,\r\n… [+765 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Slashdot.org"
-                },
-                "author": "feedfeeder",
-                "title": "Ford, GM, and even Tesla are warning about the EV market - Yahoo Finance",
-                "description": "Ford, GM, and even Tesla are warning about the EV marketYahoo Finance How the UAW and Ford struck a historic dealCNN I give Ford a B- overall on their strike deal with UAW, says MAEVA Group's Harry WilsonCNBC Television Editorial: Costly contract a risk for F…",
-                "url": "https://slashdot.org/firehose.pl?op=view&amp;id=172121319",
-                "urlToImage": null,
-                "publishedAt": "2023-10-27T21:36:05Z",
-                "content": "\"Don't try to outweird me, three-eyes. I get stranger things than you free\r\nwith my breakfast cereal.\"\r\n- Zaphod Beeblebrox in \"Hithiker's Guide to the Galaxy\""
-                },
-                {
-                "source": {
-                "id": "abc-news",
-                "name": "ABC News"
-                },
-                "author": "BARBARA ORTUTAY AP technology writer",
-                "title": "Twitter takeover: 1 year later, X struggles with misinformation, advertising and usage decline",
-                "description": "One year ago, billionaire Elon Musk walked into Twitter’s San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming the social media platform into what is now known as X",
-                "url": "https://abcnews.go.com/Technology/wireStory/twitter-takeover-1-year-struggles-misinformation-advertising-usage-104438313",
-                "urlToImage": "https://i.abcnewsfe.com/a/abc52358-6a40-4abe-8592-6b9d2a5b9c49/wirestory_ac2cb6419d93d64086cc9ad980c5a57a_16x9.jpg?w=992",
-                "publishedAt": "2023-10-27T21:34:46Z",
-                "content": "SAN FRANCISCO -- One year ago, billionaire and new owner Elon Musk walked into Twitter's San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and b… [+5412 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Marketscreener.com"
-                },
-                "author": null,
-                "title": "Business Lookahead: Central bank trick or treat",
-                "description": "(marketscreener.com) STORY: From a slew of central bank meetings to Apple's earnings, these are the stories to watch in business and finance. https://www.marketscreener.com/quote/stock/APPLE-INC-4849/news/Business-Lookahead-Central-bank-trick-or-treat-4517763…",
-                "url": "https://www.marketscreener.com/quote/stock/APPLE-INC-4849/news/Business-Lookahead-Central-bank-trick-or-treat-45177638/",
-                "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
-                "publishedAt": "2023-10-27T21:18:04Z",
-                "content": "STORY: From a slew of central bank meetings to Apple's earnings, these are the stories to watch in business and finance. \r\n The Bank of Japan makes a policy announcement on Tuesday.\r\nThe benchmark 10… [+1356 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Electrek"
-                },
-                "author": "Jameson Dow",
-                "title": "Tesla Service goes on strike in Sweden; dockworkers refuse to unload cars",
-                "description": "Tesla Service workers have gone on strike across Sweden due to Tesla’s refusal to sign a collective bargaining agreement. In response, Swedish dockworkers have stated that they will refuse to unload Tesla vehicles in Swedish ports unless the conflict is resol…",
-                "url": "https://electrek.co/2023/10/27/tesla-service-goes-on-strike-in-sweden-dockworkers-refuse-to-unload-cars/",
-                "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2019/06/Tesla-Service-hero.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-                "publishedAt": "2023-10-27T21:16:45Z",
-                "content": "Tesla Service workers have gone on strike across Sweden due to Teslas refusal to sign a collective bargaining agreement. In response, Swedish dockworkers have stated that they will refuse to unload T… [+5209 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Slashdot.org"
-                },
-                "author": "feedfeeder",
-                "title": "Ford, GM, and even Tesla are warning about EV market - Yahoo Finance",
-                "description": "Ford, GM, and even Tesla are warning about EV marketYahoo Finance How the UAW and Ford struck a historic dealCNN Ford, GM, Mercedes come clean on EV demand weaknessFox Business Editorial: Costly contract a risk for Ford, othersDetroit News There's a lot of he…",
-                "url": "https://slashdot.org/firehose.pl?op=view&amp;id=172121197",
-                "urlToImage": null,
-                "publishedAt": "2023-10-27T21:13:53Z",
-                "content": "\"Don't try to outweird me, three-eyes. I get stranger things than you free\r\nwith my breakfast cereal.\"\r\n- Zaphod Beeblebrox in \"Hithiker's Guide to the Galaxy\""
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "finance.yahoo.com",
-                "title": "Ford, GM, and even Tesla are warning about the EV market",
-                "description": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a year ago, with EV market share hitting 7.9% — its highest-ever …",
-                "url": "https://biztoc.com/x/ee10fef56d2a60d5",
-                "urlToImage": "https://c.biztoc.com/p/ee10fef56d2a60d5/og.webp",
-                "publishedAt": "2023-10-27T21:06:10Z",
-                "content": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a yea… [+290 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "finance.yahoo.com",
-                "title": "Ford, GM, and even Tesla are warning about the EV market",
-                "description": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a year ago, with EV market share hitting 7.9% — its highest-ever …",
-                "url": "https://biztoc.com/x/ee10fef56d2a60d5",
-                "urlToImage": "https://c.biztoc.com/p/ee10fef56d2a60d5/og.webp",
-                "publishedAt": "2023-10-27T21:06:10Z",
-                "content": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a yea… [+290 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Gizmodo.com"
-                },
-                "author": "Nikki Main",
-                "title": "Tesla's String of Mass Recalls Over the Last 12 Months",
-                "description": "Tesla and recalls are no strangers as it seems to have one every few weeks or months due to various system glitches and malfunctions. From loose seat belts to power steering, to traction battery recalls, Tesla is no novice when it comes to fixing errors stemm…",
-                "url": "https://gizmodo.com/tesla-elon-musk-string-mass-recalls-over-last-12-months-1850957985",
-                "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/6827a0d1a763831eb6c592246ce2780d.jpg",
-                "publishedAt": "2023-10-27T21:00:00Z",
-                "content": "Tesla and recalls are no strangers as it seems to have one every few weeks or months due to various system glitches and malfunctions. From loose seat belts to power steering, to traction battery reca… [+1053 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Newser"
-                },
-                "author": "Bob Cronin",
-                "title": "Stocks Fall, Pushing S&P Into Correction",
-                "description": "Stocks closed lower Friday on Wall Street, pulling the S&P 500 down 10% from the peak it reached in July. That puts the benchmark index into what's called a \"correction,\" the AP reports: The S&P fell 19.86 points, or 0.5%, to 4,117.37. The Dow fell 366....",
-                "url": "https://www.newser.com/story/341969/stocks-fall-pushing-sp-into-correction.html",
-                "urlToImage": "https://img1-azrcdn.newser.com/image/1499454-12-20231027160000.jpeg",
-                "publishedAt": "2023-10-27T21:00:00Z",
-                "content": "Stocks closed lower Friday on Wall Street, pulling the S&amp;P 500 down 10% from the peak it reached in July. That puts the benchmark index into what's called a \"correction,\" the AP reports:\r\n<ul><li… [+901 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "CleanTechnica"
-                },
-                "author": "Steve Hanley",
-                "title": "BP Places $100 Million Order For Tesla’s Ultra-Fast EV Chargers",
-                "description": "bp pulse has ordered $100 million worth of Tesla Superchargers to expand its US EV charging network starting in 2024.",
-                "url": "https://cleantechnica.com/2023/10/27/bp-places-100-million-order-for-teslas-ultra-fast-ev-chargers/",
-                "urlToImage": "http://cleantechnica.com/files/2023/10/Tesla-BP-Pulse-Charger.jpg",
-                "publishedAt": "2023-10-27T20:57:07Z",
-                "content": "Sign up for daily news updates from CleanTechnica on email. Or follow us on Google News!\r\nEveryone is bitching about the horrible state of EV charging. Either the damn things are broken or they requi… [+7180 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Marketscreener.com"
-                },
-                "author": null,
-                "title": "Wall St Week Ahead-Frazzled U.S. stock investors eye frothy Treasury market as Fed looms",
-                "description": "(marketscreener.com) \n \n NEW YORK, Oct 27 -\n Financial markets are bracing for what could be a momentous\nweek, with a Federal Reserve meeting, U.S. employment data and\nearnings from technology heavyweight Apple Inc possibly\nsetting the course for stocks and b…",
-                "url": "https://www.marketscreener.com/quote/currency/AUSTRALIAN-DOLLAR-US-DOLL-2373531/news/Wall-St-Week-Ahead-Frazzled-U-S-stock-investors-eye-frothy-Treasury-market-as-Fed-looms-45177072/",
-                "urlToImage": "https://img.zonebourse.com/reuters/2017-02/2017-02-23T005601Z_1006950001_LYNXMPED1M02Y_RTROPTP_2_CBUSINESS-US-GLOBAL-FOREX.JPG",
-                "publishedAt": "2023-10-27T20:55:30Z",
-                "content": "NEW YORK, Oct 27 (Reuters) -\r\nFinancial markets are bracing for what could be a momentous\r\nweek, with a Federal Reserve meeting, U.S. employment data and\r\nearnings from technology heavyweight Apple I… [+3942 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Minneapolis Star Tribune"
-                },
-                "author": "STAN CHOE and DAMIAN J. TROISE",
-                "title": "Stock market today: Wall Street falls, bringing the S&P 500 index 10% below its July peak",
-                "description": "Stocks stumbled on Wall Street Friday, bringing the S&P 500 10% below the peak it reached in July and putting the benchmark index into what's called a ''correction.''",
-                "url": "https://www.startribune.com/stock-market-today-wall-street-falls-bringing-the-s-p-500-index-10-below-its-july-peak/600315178/",
-                "urlToImage": "https://www.startribune.com/static/img/branding/logos/strib-social-card.png?d=1696606793",
-                "publishedAt": "2023-10-27T20:55:07Z",
-                "content": "NEW YORK Stocks stumbled on Wall Street Friday, bringing the S&amp;P 500 10% below the peak it reached in July and putting the benchmark index into what's called a ''correction.''\r\nThe S&amp;P 500 fe… [+5421 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "MarketWatch"
-                },
-                "author": "MarketWatch Automation",
-                "title": "Company Close Updates: Ford Motor Co. stock falls Friday, underperforms market",
-                "description": "Shares of Ford Motor Co. plunged 12.25% to $9.96 Friday, on what proved to be an all-around grim trading session for the stock market, with the S&P 500 Index...",
-                "url": "https://www.marketwatch.com/data-news/ford-motor-co-stock-falls-friday-underperforms-market-fd8774de-459f155243bf",
-                "urlToImage": "https://images.mktw.net/im-220105/social",
-                "publishedAt": "2023-10-27T20:51:28Z",
-                "content": "Shares of Ford Motor Co. \r\n F,\r\n -12.25%\r\nplunged 12.25% to $9.96 Friday, on what proved to be an all-around grim trading session for the stock market, with the S&amp;P 500 Index \r\n SPX,\r\n -0.48%\r\nfa… [+642 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "[Removed]"
-                },
-                "author": null,
-                "title": "[Removed]",
-                "description": "[Removed]",
-                "url": "https://removed.com",
-                "urlToImage": null,
-                "publishedAt": "1970-01-01T00:00:00Z",
-                "content": "[Removed]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "entrepreneur.com",
-                "title": "Ford Is Putting Off Its $12 Billion Electric Vehicle Investment",
-                "description": "Ford announced on Thursday that it delaying a $12 billion investment in electric vehicle (EV) manufacturing facilities, including halting the construction of a second battery plant in Kentucky, per CNBC. Ford said in a media briefing on Thursday that growth i…",
-                "url": "https://biztoc.com/x/6695cd1e8aabc310",
-                "urlToImage": "https://c.biztoc.com/p/6695cd1e8aabc310/s.webp",
-                "publishedAt": "2023-10-27T20:36:08Z",
-                "content": "Ford announced on Thursday that it delaying a $12 billion investment in electric vehicle (EV) manufacturing facilities, including halting the construction of a second battery plant in Kentucky, per C… [+286 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "New York Post"
-                },
-                "author": "Ariel Zilber",
-                "title": "Elon Musk gives X employees a year to turn app into finance platform: ‘You won’t need a bank account’",
-                "description": "“When I say payments, I actually mean someone’s entire financial life,” Musk told his charges at an all-hands meeting on Thursday.",
-                "url": "https://nypost.com/2023/10/27/business/elon-musk-gives-x-employees-a-year-to-turn-app-into-finance-platform/",
-                "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/10/newspress-collage-970ve4fgn-1698434995412.jpg?quality=75&strip=all&1698420655&w=1024",
-                "publishedAt": "2023-10-27T20:35:39Z",
-                "content": "Elon Musk has given his employees at social media platform X a year to roll out a payments processing mechanism that will enable people to do away with their bank accounts.\r\nWhen I say payments, I ac… [+3788 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Chicago Tribune"
-                },
-                "author": "Barbara Ortutay",
-                "title": "Musk’s Twitter takeover: 1 year later, X struggles with misinformation, advertising and usage decline",
-                "description": "One year ago, billionaire Elon Musk walked into Twitter’s San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming the social media platform into what is now known as X.",
-                "url": "https://www.chicagotribune.com/business/ct-aud-biz-twitter-musk-year-later-20231027-jn777ueiznbm5aug3j237mqiim-story.html",
-                "urlToImage": "https://www.chicagotribune.com/resizer/VSOZs9tMI9t1UF1MNzw_CbDkgYc=/1200x630/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/tronc/FQ247Y3WI2LRTA64OKGW5HQ6S4.jpg",
-                "publishedAt": "2023-10-27T20:30:10Z",
-                "content": "SAN FRANCISCO One year ago, billionaire and new owner Elon Musk walked into Twitters San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began… [+5343 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Minneapolis Star Tribune"
-                },
-                "author": "STAN CHOE and DAMIAN J. TROISE",
-                "title": "Stock market today: Wall Street falls, pulling S&P 500 down 10% from its July peak",
-                "description": "Stocks closed lower on Wall Street, pulling the S&P 500 down 10% from the peak it reached in July. That puts the benchmark index into what's called a 'correction.' The declines came amid the latest batch of earnings from big technology and energy companies an…",
-                "url": "https://www.startribune.com/stock-market-today-wall-street-falls-pulling-s-p-500-down-10-from-its-july-peak/600315178/",
-                "urlToImage": "https://www.startribune.com/static/img/branding/logos/strib-social-card.png?d=1696606793",
-                "publishedAt": "2023-10-27T20:20:01Z",
-                "content": "NEW YORK Stocks closed lower on Wall Street, pulling the S&amp;P 500 down 10% from the peak it reached in July. That puts the benchmark index into what's called a 'correction.' The declines came amid… [+5879 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "finance.yahoo.com",
-                "title": "Ford, GM, and even Tesla are warning about the EV market",
-                "description": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a year ago, with EV market share hitting 7.9% — its highest ever …",
-                "url": "https://biztoc.com/x/cc3e57d879d3aa9f",
-                "urlToImage": "https://c.biztoc.com/p/cc3e57d879d3aa9f/s.webp",
-                "publishedAt": "2023-10-27T20:12:06Z",
-                "content": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a yea… [+290 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Thefly.com"
-                },
-                "author": null,
-                "title": "What You Missed On Wall Street On Friday",
-                "description": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investors, professional money managers, active traders, and corpor…",
-                "url": "https://thefly.com/permalinks/entry.php/id3802452/AMZN;F;INTC;CVX;XOM;TSLA;GOOG;GOOGL;GM;BZFD;DIS;NRDS;EGO;DXCM;JNPR;PTCT;GTLS;SWK;ENPH;CMG;COF;ABBV-What-You-Missed-On-Wall-Street-On-Friday",
-                "urlToImage": "https://image.thefly.com/catalog/201810/img_66.png",
-                "publishedAt": "2023-10-27T20:09:21Z",
-                "content": "Get caught up quickly on the top news and calls moving stocks with these five Top Five lists. \r\n1. STOCK NEWS: \r\n<ul><li>Amazon (AMZN) reported upbeat Q3 results and continued stabilization of Web Se… [+3079 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "ETF Daily News"
-                },
-                "author": "MarketBeat News",
-                "title": "Quaker Wealth Management LLC Invests $201,000 in Tesla, Inc. (NASDAQ:TSLA)",
-                "description": "Quaker Wealth Management LLC purchased a new position in Tesla, Inc. (NASDAQ:TSLA – Free Report) in the second quarter, according to its most recent Form 13F filing with the Securities & Exchange Commission. The fund purchased 768 shares of the electric vehic…",
-                "url": "https://www.etfdailynews.com/2023/10/27/quaker-wealth-management-llc-invests-201000-in-tesla-inc-nasdaqtsla/",
-                "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tesla-inc-logo.png?v=20221020135629&w=240&h=240&zc=2",
-                "publishedAt": "2023-10-27T20:06:43Z",
-                "content": "Quaker Wealth Management LLC purchased a new position in Tesla, Inc. (NASDAQ:TSLA – Free Report) in the second quarter, according to its most recent Form 13F filing with the Securities &amp; Exchange… [+6307 chars]"
-                },
-                {
-                "source": {
-                "id": null,
-                "name": "Biztoc.com"
-                },
-                "author": "aol.com",
-                "title": "Ford, GM, and even Tesla are warning about the EV market",
-                "description": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a year ago, with EV market share hitting 7.9% — its highest ever …",
-                "url": "https://biztoc.com/x/9e860ddfdd03523f",
-                "urlToImage": "https://c.biztoc.com/p/9e860ddfdd03523f/s.webp",
-                "publishedAt": "2023-10-27T20:06:08Z",
-                "content": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a yea… [+278 chars]"
-                }
-                ],
-            loading: true,
+           articles: [
+{
+"source": {
+"id": null,
+"name": "CNBC"
+},
+    "author": null,
+    "title": "Here's why we're not buyers in Monday's session, even as stocks move lower",
+    "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+    "url": "https://www.cnbc.com/2025/05/05/why-were-not-buyers-even-as-stocks-move-lower-in-mondays-session.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/108139390-1746113870207-NYSE_Traders-OB-Photo-20250501-CC-PRESS-7.jpg?v=1746114141&w=1920&h=1080",
+    "publishedAt": "2025-05-05T18:17:44Z",
+    "content": "Every weekday, the CNBC Investing Club with Jim Cramer releases the Homestretch an actionable afternoon update, just in time for the last hour of trading on Wall Street. Market update: Stocks started… [+3188 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Electrek"
+    },
+    "author": "Scooter Doll",
+    "title": "Chery is deploying an army of blonde humanoid robots called Mornine to sell its cars [Video]",
+    "description": "If you thought Tesla or XPeng’s bipedal humanoid robots were a creepy glimpse into the future, wait until you see what Chinese automaker Chery Automotive is deploying. Alongside business partner AiMOGA, Chery is encouraging its dealers to purchase a Mornine r…",
+    "url": "http://electrek.co/2025/05/05/chery-deploying-blonde-humanoid-robots-called-mornine-to-sell-cars-video/",
+    "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2025/05/Chery-robot-Mornine-hero.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "publishedAt": "2025-05-05T18:04:36Z",
+    "content": "If you thought Tesla or XPeng’s bipedal humanoid robots were a creepy glimpse into the future, wait until you see what Chinese automaker Chery Automotive is deploying. Alongside business partner AiMO… [+3101 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Electrek"
+    },
+    "author": "Reinette LeJeune",
+    "title": "Anker SOLIX EverFrost 2 coolers + bundles $200 off, G-Force’s new DE-S cargo e-bike $1,399, EcoFlow DELTA 2 bundle flash sale, more",
+    "description": "We’re starting off this week’s Green Deals with a spotlight on Anker’s SOLIX EverFrost 2 Electric Cooler discounts that are running as part of the brand’s ongoing Mother’s Day Sale, which start from $700. Next, we have G-Force’s extended e-bike savings, inclu…",
+    "url": "http://electrek.co/2025/05/05/anker-solix-everfrost-2-electric-coolers-g-force-ecoflow-more/",
+    "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2025/05/Anker-SOLIX-EverFrost-2-40L-Electric-Cooler-lifestyle-1-e1746466579979.png?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "publishedAt": "2025-05-05T18:00:20Z",
+    "content": "We’re starting off this week’s Green Deals with a spotlight on Anker’s SOLIX EverFrost 2 Electric Cooler discounts that are running as part of the brand’s ongoing Mother’s Day Sale, which start from … [+12089 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "benzinga.com",
+    "title": "Tesla Stock Falls On European Sales Decline, Rising Competition: What's Going On?",
+    "description": "Tesla Inc. (NASDAQ:TSLA) shares are trading lower Monday after industry data showed a drop in new car sales in Spain, which appears to be adding to concerns over European performance.\nWhat To Know: New registration data from Spanish industry group ANFAC showe…",
+    "url": "https://biztoc.com/x/042183d99e09f415",
+    "urlToImage": "https://biztoc.com/cdn/042183d99e09f415_s.webp",
+    "publishedAt": "2025-05-05T17:58:51Z",
+    "content": "Tesla Inc. (NASDAQ:TSLA) shares are trading lower Monday after industry data showed a drop in new car sales in Spain, which appears to be adding to concerns over European performance.What To Know: Ne… [+144 chars]"
+    },
+    {
+    "source": {
+    "id": "the-irish-times",
+    "name": "The Irish Times"
+    },
+    "author": "Hugh Dooley",
+    "title": "Insurance stocks cover European markets’ winning streak",
+    "description": "Benchmark STOXX 600 index ends 0.2% higher",
+    "url": "https://www.irishtimes.com/business/2025/05/05/insurance-stocks-cover-european-markets-winning-streak/",
+    "urlToImage": "https://www.irishtimes.com/resizer/v2/II26AEJJ23F73YJGGAC6EINWNA.jpg?smart=true&auth=330be37bb7149296a251cb34c7e8dd1920ba23a9577189a44921be747c3bee09&width=1200&height=630",
+    "publishedAt": "2025-05-05T17:47:56Z",
+    "content": "European shares extended their winning streak on Monday, with investors focusing on developments from the trade war alongside the US Federal Reserves policy meeting later this week.\r\nThe pan-European… [+4089 chars]"
+    },
+    {
+    "source": {
+    "id": "nbc-news",
+    "name": "NBC News"
+    },
+    "author": "Michael Wayland, CNBC",
+    "title": "Inside GM's decade-long battle to revive Cadillac as the quintessential American luxury car brand",
+    "description": "WARREN, Mich. — Walking into General Motors’ global design headquarters is like taking a step back in time.",
+    "url": "https://www.nbcnews.com/business/autos/gms-decade-long-battle-revive-cadillac-quintessential-american-luxury-rcna204845",
+    "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-05/250505-cadillac-1950s-2-se-114p-9707e3.jpg",
+    "publishedAt": "2025-05-05T17:28:11Z",
+    "content": "GM President Mark Reuss wasnt alive to witness that era, but hes harkened back to it as he and his teams have methodically overseen a product renaissance for Cadillac, which wants to regain its promi… [+10922 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "finance.yahoo.com",
+    "title": "Is It Too Late To Sell Your Tesla? 4 Options If You Don’t Want To Drive It Anymore",
+    "description": "Consumer sentiment around Tesla is souring, largely due to Elon Musk’s increasingly extreme political views and public behavior. Once a status symbol, now Teslas are flooding resale platforms as owners reassess what the car — and the brand — represent.\nRead M…",
+    "url": "https://biztoc.com/x/a042fb8c4239f074",
+    "urlToImage": "https://biztoc.com/cdn/a042fb8c4239f074_s.webp",
+    "publishedAt": "2025-05-05T17:26:04Z",
+    "content": "Consumer sentiment around Tesla is souring, largely due to Elon Musks increasingly extreme political views and public behavior. Once a status symbol, now Teslas are flooding resale platforms as owner… [+145 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Kelly Benefits December data breach impacted over 400,000 individuals",
+    "description": "Kelly Benefits has determined that the impact of the recently disclosed data breach is much bigger than initially believed. Benefits and payroll solutions firm Kelly & Associates Insurance Group, aka Kelly Benefits, announced that the impact of a recently dis…",
+    "url": "https://securityaffairs.com/177476/data-breach/kelly-benefits-december-data-breach-impacted-over-400000-individuals.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2012/04/data-breach.jpg",
+    "publishedAt": "2025-05-05T17:22:11Z",
+    "content": "Kelly Benefits December data breach impacted over 400,000 individuals\r\n | A hacker stole data from TeleMessage, the firm that sells modified versions of Signal to the U.S. gov\r\n | Experts shared up-t… [+161463 chars]"
+    },
+    {
+    "source": {
+    "id": "the-times-of-india",
+    "name": "The Times of India"
+    },
+    "author": "Liz Alderman",
+    "title": "Europe pushes back against US tariffs, saying 'No thanks' to buying American",
+    "description": "A European Central Bank study shows a growing, possibly lasting backlash against US products due to President Trump’s tariffs and rhetoric. European consumers are actively avoiding American brands like Tesla, McDonald’s, and Netflix, with boycotts and apps ai…",
+    "url": "https://economictimes.indiatimes.com/tech/technology/europe-pushes-back-against-us-tariffs-saying-no-thanks-to-buying-american/articleshow/120906620.cms",
+    "urlToImage": "https://img.etimg.com/thumb/msid-120906751,width-1200,height-630,imgsize-31258,overlay-ettech/articleshow.jpg",
+    "publishedAt": "2025-05-05T17:22:01Z",
+    "content": "For motorcycle lovers in Sweden, Harley-Davidson is the hottest brand on the road. Jack Daniels whiskey beckons from the bar at British pubs. In France, Levis jeans are all about chic. But in the tum… [+4904 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Yahoo Entertainment"
+    },
+    "author": null,
+    "title": "Is It Too Late To Sell Your Tesla? 4 Options If You Don’t Want To Drive It Anymore",
+    "description": null,
+    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a8170d9a-fc2e-4e29-997a-ea200116f6b9",
+    "urlToImage": null,
+    "publishedAt": "2025-05-05T17:05:36Z",
+    "content": "If you click 'Accept all', we and our partners, including 240 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+702 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "CleanTechnica"
+    },
+    "author": "Steve Hanley",
+    "title": "Tariffs & Electric Cars: Bloomberg Says It’s Time To Welcome Chinese Cars To The US",
+    "description": "Tariffs that protect local industries have some benefits, but tariffs that exclude entire nations are ultimately self-defeating. \nThe post Tariffs & Electric Cars: Bloomberg Says It’s Time To Welcome Chinese Cars To The US appeared first on CleanTechnica.",
+    "url": "https://cleantechnica.com/2025/05/05/tariffs-electric-cars-bloomberg-says-its-time-to-welcome-chinese-cars-to-the-us/",
+    "urlToImage": "https://cleantechnica.com/wp-content/uploads/2024/01/BYD-Explorer-No1-shipping-vessel-electric-cars-copy.jpg",
+    "publishedAt": "2025-05-05T16:57:26Z",
+    "content": "Sign up for CleanTechnica's Weekly Substack for Zach and Scott's in-depth analyses and high level summaries, sign up for our daily newsletter, and/or follow us on Google News!\r\nTariffs are a hot topi… [+7297 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Autoweek"
+    },
+    "author": "Jay Ramey",
+    "title": "Another Robotaxi Service Will Launch in Texas This Year. But It's Not One You've Heard Of",
+    "description": "Yet another autonomous developer is partnering with a ride-hailing app in the Lone Star state, with a 2025 launch planned.",
+    "url": "https://www.autoweek.com/news/a64671247/texas-uber-robotaxis-may-mobility/",
+    "urlToImage": "https://s.yimg.com/ny/api/res/1.2/O.rsyvnL6e7fcmCwvE9Yvg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/autos.autoweek.com/01b43ac7ec5477906a1df7ee3729ba27",
+    "publishedAt": "2025-05-05T16:53:00Z",
+    "content": "<ul><li>Uber teams up with May Mobility to launch a fleet of robotaxis in Arlington, Texas, by the end of 2025.\r\n</li><li>The effort is the latest partnership between a leading app and an autonomous … [+3343 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "finance.yahoo.com",
+    "title": "Why Shares of Tesla Are Sinking Today",
+    "description": "In This Article:\nKey Points\n-\nThe electric vehicle maker is reportedly seeing shrinking sales in another European country.\n-\nStruggles in Tesla's core EV business has dogged the stock all year.\n-\nInvestors are laser focused on an upcoming June demonstration o…",
+    "url": "https://biztoc.com/x/537bd1bce1f080b3",
+    "urlToImage": "https://biztoc.com/cdn/537bd1bce1f080b3_s.webp",
+    "publishedAt": "2025-05-05T16:52:57Z",
+    "content": "In This Article:Key Points-The electric vehicle maker is reportedly seeing shrinking sales in another European country.-Struggles in Tesla's core EV business has dogged the stock all year.-Investors … [+135 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "247wallst.com",
+    "title": "Tesla (NASDAQ: TSLA) Bull, Base, & Bear Price Prediction and Forecast",
+    "description": "Shares of Tesla Inc. (NASDAQ:TSLA) may be catching the eye of investors looking for a buy-low opportunity, but if that includes you, proceed with caution. Since reaching its all-time high of $479.86 on Dec. 17, 2024, the stock has plummeted 42.18%, including …",
+    "url": "https://biztoc.com/x/eeb62b39c9fb6dd0",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T16:42:04Z",
+    "content": "Shares of Tesla Inc. (NASDAQ:TSLA) may be catching the eye of investors looking for a buy-low opportunity, but if that includes you, proceed with caution. Since reaching its all-time high of $479.86 … [+141 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "theweek.com",
+    "title": "How could Tesla replace Elon Musk?",
+    "description": "Will he stay or will he go? Tesla last week shot down a report that its board is searching for a new CEO to replace Elon Musk atop the company. But questions about the company's future are not going away.\nFinding somebody to take Musk's place is a \"huge chall…",
+    "url": "https://biztoc.com/x/ad6f625c10056402",
+    "urlToImage": "https://biztoc.com/cdn/ad6f625c10056402_s.webp",
+    "publishedAt": "2025-05-05T16:41:49Z",
+    "content": "Will he stay or will he go? Tesla last week shot down a report that its board is searching for a new CEO to replace Elon Musk atop the company. But questions about the company's future are not going … [+144 chars]"
+    },
+    
+    {
+    "source": {
+    "id": null,
+    "name": "The Week Magazine"
+    },
+    "author": "theweekonlineeditors@futurenet.com (Joel Mathis, The Week US)",
+    "title": "How could Tesla replace Elon Musk?",
+    "description": "CEO is 'greatest asset and gravest risk'",
+    "url": "https://theweek.com/business/tesla-replace-elon-musk",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/WS8krrGpRwNPTF5VxP8sdC.jpg",
+    "publishedAt": "2025-05-05T16:35:47Z",
+    "content": "Will he stay or will he go? Tesla last week shot down a report that its board is searching for a new CEO to replace Elon Musk atop the company. But questions about the company's future are not going … [+3282 chars]"
+    },
+    {
+    "source": {
+    "id": "the-times-of-india",
+    "name": "The Times of India"
+    },
+    "author": "Reuters",
+    "title": "S&P 500, Nasdaq slip after Trump's fresh tariffs at start of Fed-decision week",
+    "description": "U.S. stocks experienced a mixed trading day as President Trump's new tariffs reignited trade war anxieties, overshadowing anticipation for the Federal Reserve's upcoming policy decision. Energy stocks declined, while financial stocks saw gains, impacting majo…",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/sp-500-nasdaq-slip-after-trumps-fresh-tariffs-at-start-of-fed-decision-week/articleshow/120905512.cms",
+    "urlToImage": "https://img.etimg.com/thumb/msid-120905565,width-1200,height-630,imgsize-361188,overlay-etmarkets/articleshow.jpg",
+    "publishedAt": "2025-05-05T16:20:59Z",
+    "content": "The S&amp;P 500 and the Nasdaq were lower on Monday after U.S. President Donald Trump rekindled worries about the fallout of a global trade war by introducing new tariffs, while focus remained on the… [+2914 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Thegatewaypundit.com"
+    },
+    "author": "Margaret Flavin",
+    "title": "Legal Immigrant from Africa Has Message for ‘Spoiled’ Protesting Leftists: “How can you hate one man just because he love his country?” (Video)",
+    "description": "Leftists across the country, many of whom are Boomers trying to relive their \"glory days\" of the 60's, continue to protest against Donald Trump's efforts to Make America Great Again.\nThe post Legal Immigrant from Africa Has Message for ‘Spoiled’ Protesting Le…",
+    "url": "https://www.thegatewaypundit.com/2025/05/legal-immigrant-africa-has-message-spoiled-protesting-leftists/",
+    "urlToImage": "https://www.thegatewaypundit.com/wp-content/uploads/2025/03/tesla-protest-in-easton-columbus-ohio-by-kristinn-taylor-03222025-scaled.jpg",
+    "publishedAt": "2025-05-05T16:15:33Z",
+    "content": "Protesters at a Tesla dealership in the Easton shopping district in Columbus, Ohio, photo by Kristinn Taylor, March 22, 2025.\r\nLeftists across the country, many of whom are Boomers trying to relive t… [+2086 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Washingtonspectator.org"
+    },
+    "author": "washington spectator",
+    "title": "America's Slide into Authoritarianism...",
+    "description": "Historians (if they exist in the future and any records of this period survive) will note this month as one where the United States slipped fully into authoritarianism. Incompetence, luck…",
+    "url": "https://washingtonspectator.org/americas-slide-into-authoritarianism-as-seen-from-ted-2025/",
+    "urlToImage": "https://washingtonspectator.org/wp-content/uploads/2025/04/ted-2025-its-a-coup.jpg",
+    "publishedAt": "2025-05-05T16:00:03Z",
+    "content": "Historians (if they exist in the future and any records of this period survive) will note this month as one where the United States slipped fully into authoritarianism. Incompetence, luck, and real l… [+7780 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "New York Post"
+    },
+    "author": "Ariel Zilber",
+    "title": "Elon Musk’s security guards at ‘Fort Knox’ Texas compound called cops on neighbor they thought was naked: report",
+    "description": "Musk's suburban Austin mansion is equipped with high fencing, a phalanx of armed security guards and surveillance cameras.",
+    "url": "https://nypost.com/2025/05/05/business/elon-musks-security-guards-called-cops-on-neighbor-they-thought-was-naked/",
+    "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/05/103866731.jpg?quality=75&strip=all&w=1024",
+    "publishedAt": "2025-05-05T15:36:55Z",
+    "content": "High fences make bad neighbors.\r\nAt least that’s what those living near Elon Musk’s “Fort Knox” high-walled compound near Austin, Texas, claim — including allegations that the mogul’s security forces… [+4330 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Electrek"
+    },
+    "author": "Fred Lambert",
+    "title": "Waymo plans to more than double its self-driving I-PACE fleet within the next year",
+    "description": "Waymo announced plans to more than double its fleet of self-driving I-PACE electric vehicles by the end of next year.\n\n\n\n more…",
+    "url": "http://electrek.co/2025/05/05/waymo-plans-to-more-than-double-its-self-driving-i-pace-fleet-within-the-next-year/",
+    "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2024/02/waymo-jaguar-ipace-self-driving-1.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "publishedAt": "2025-05-05T15:32:15Z",
+    "content": "Waymo announced plans to more than double its fleet of self-driving I-PACE electric vehicles by the end of next year.\r\nToday, self-driving market leader Waymo announced its manufacturing expansion pl… [+2294 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Newser"
+    },
+    "author": "John Johnson",
+    "title": "Musk's Most Important Mission Isn't DOGE or EVs",
+    "description": "Elon Musk is shifting away from DOGE to refocus on Tesla, and James Pethokoukis writes in a Washington Post essay that it can't happen soon enough. The reason is not because of politics or even electric cars. Pethokoukis, a senior fellow at the American Enter…",
+    "url": "https://www.newser.com/story/368171/musks-most-important-mission-isnt-doge-or-evs.html",
+    "urlToImage": "https://img1-azrcdn.newser.com/image/1608792-12-20250505104347.jpeg",
+    "publishedAt": "2025-05-05T15:28:00Z",
+    "content": "Elon Musk is shifting away from DOGE to refocus on Tesla, and James Pethokoukis writes in a Washington Post essay that it can't happen soon enough. The reason is not because of politics or even elect… [+1412 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "The Daily Caller"
+    },
+    "author": "Hudson Crozier",
+    "title": "Prosecutor Who Let Tesla Vandal Off Easy Now Under DOJ Probe For Race-Based Policy",
+    "description": "The DOJ is looking into whether a Minnesota prosecutor's office is violating the Constitution by pledging to factor defendants' skin color into plea deals.",
+    "url": "https://dailycaller.com/2025/05/05/prosecutor-who-let-tesla-vandal-off-easy-now-under-doj-probe-for-race-based-policy/",
+    "urlToImage": "https://cdn01.dailycaller.com/wp-content/uploads/2025/05/GettyImages-2202127606-scaled-e1746452090620.jpg",
+    "publishedAt": "2025-05-05T15:25:52Z",
+    "content": "The Department of Justice (DOJ) is looking into whether a Minnesota prosecutor’s office is violating the Constitution by pledging to factor defendants’ skin color into plea deals.\r\nAssistant Attorney… [+4603 chars]"
+    },
+    {
+    "source": {
+    "id": "the-times-of-india",
+    "name": "The Times of India"
+    },
+    "author": "Global Desk",
+    "title": "If Elon Musk quits as CEO, Tesla's valuation could drop by a massive 25%, warns Gary Black; here's a complete breakdown of what he said",
+    "description": "Gary Black, a Tesla bull, dismissed the rumour of Elon Musk's potential departure from Tesla, cautioning that such a move could plummet the stock value. Black estimates a 5%-10% drop if Musk transitions roles and a 20%-25% fall if he exits entirely. Musk hims…",
+    "url": "https://economictimes.indiatimes.com/news/international/us/if-elon-musk-quits-as-ceo-teslas-valuation-could-drop-by-a-massive-25-warns-gary-black-heres-a-complete-breakdown-of-what-he-said/articleshow/120904128.cms",
+    "urlToImage": "https://img.etimg.com/thumb/msid-120904226,width-1200,height-630,imgsize-26370,overlay-economictimes/articleshow.jpg",
+    "publishedAt": "2025-05-05T15:17:46Z",
+    "content": "After speculation swirled around the potential for Tesla CEO Elon Musk to step down and replace him, a Tesla bull Gary Black, managing partner at The Future Fund LLC, was quick to shoot down the rumo… [+2637 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Yahoo Entertainment"
+    },
+    "author": "Hamna Asim",
+    "title": "Is Tesla, Inc. (TSLA) Among The High Growth Companies Hedge Funds Are Buying?",
+    "description": "We recently published a list of 15 High Growth Companies Hedge Funds Are Buying. In this article, we are going to take a look at where Tesla, Inc...",
+    "url": "https://finance.yahoo.com/news/tesla-inc-tsla-among-high-151337831.html",
+    "urlToImage": "https://s.yimg.com/ny/api/res/1.2/R3DsTXHuX1Up50du0B.awA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/1277c6032fd09b727a10249a170024cf",
+    "publishedAt": "2025-05-05T15:13:37Z",
+    "content": "We recently published a list of 15 High Growth Companies Hedge Funds Are Buying. In this article, we are going to take a look at where Tesla, Inc. (NASDAQ:TSLA) stands against other high growth stock… [+5811 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "cnbc.com",
+    "title": "How Tesla lost some of its biggest fans",
+    "description": "Tesla owners and investors once believed the company and CEO Elon Musk were changing the world. Now many are selling their cars and dumping stock.",
+    "url": "https://biztoc.com/x/73ad3323df32e282",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T15:12:49Z",
+    "content": "Tesla owners and investors once believed the company and CEO Elon Musk were changing the world. Now many are selling their cars and dumping stock.\r\nThis story appeared on cnbc.com, 2025-05-05 15:08:3… [+1 chars]"
+    },
+    {
+    "source": {
+    "id": "the-verge",
+    "name": "The Verge"
+    },
+    "author": "Andrew J. Hawkins",
+    "title": "Waymo says it will add 2,000 more robotaxis in 2026",
+    "description": "Waymo said it recently received its last delivery of Jaguar I-Pace SUVs, which will be retrofitted with sensors and autonomous driving technology at its factory in Arizona, before joining its robotaxi fleet. In a blog post published today, the Alphabet compan…",
+    "url": "https://www.theverge.com/news/661025/waymo-fleet-size-factory-arizona-jaguar-robotaxi-zeekr",
+    "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/Waymo_General_Assembly.webp?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "publishedAt": "2025-05-05T15:10:23Z",
+    "content": "The company provides a rare glimpse into its fleet size as it gears up to introduce new vehicle models.\r\nThe company provides a rare glimpse into its fleet size as it gears up to introduce new vehicl… [+3055 chars]"
+    },
+    {
+    "source": {
+    "id": "newsweek",
+    "name": "Newsweek"
+    },
+    "author": "James Bickerton",
+    "title": "House Democrats Launch Probe into Elon Musk's 'Conflict of Interest'",
+    "description": "Tesla CEO was one of Donald Trump's most influential supporters during the 2024 presidential election.",
+    "url": "https://www.newsweek.com/house-democrats-launch-probe-elon-musks-conflict-interest-2068031",
+    "urlToImage": "https://d.newsweek.com/en/full/2638640/elon-musk.jpg",
+    "publishedAt": "2025-05-05T15:10:16Z",
+    "content": "Elon Musk is the target of new conflict of interest questions from Democratic members of the House Committee on Oversight and Government Reform.\r\nSpecifically, they asked key figures in the Trump adm… [+4641 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "CNBC"
+    },
+    "author": null,
+    "title": "How Tesla lost some of its biggest fans",
+    "description": "Tesla owners and investors once believed the company and CEO Elon Musk were changing the world. Now many are selling their cars and dumping stock.",
+    "url": "https://www.cnbc.com/2025/05/05/how-some-of-teslas-biggest-fans-turned-against-it.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/108114305-1742584083907-108114305-17417212502025-03-11t192114z_254284279_rc26bdah68f8_rtrmadp_0_usa-trump.jpeg?v=1742584102&w=1920&h=1080",
+    "publishedAt": "2025-05-05T15:08:34Z",
+    "content": "Tesla owners and investors once believed the company and CEO Elon Musk were changing the world. Now many are selling their cars and dumping stock.\r\nMusk has sparked protests in front of Tesla stores … [+1296 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Yahoo Entertainment"
+    },
+    "author": null,
+    "title": "Tesla Named Top U.S. Contender in AI Race",
+    "description": null,
+    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_cd759e68-ce73-430c-b028-8b8bfffaf32d",
+    "urlToImage": null,
+    "publishedAt": "2025-05-05T15:06:33Z",
+    "content": "If you click 'Accept all', we and our partners, including 240 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+702 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Freerepublic.com"
+    },
+    "author": "Yahoo! / The Cool Down",
+    "title": "Tesla sparks firestorm after bold defense of self-driving tech: 'Car does it all for you'",
+    "description": "Tesla is fighting back at criticism of its Full Self-Driving features. The EV automaker took to the social media platform X to provide a robust defense of FSD's current state and future. While few would take issue with this point, many consumers have been und…",
+    "url": "https://freerepublic.com/focus/f-news/4315126/posts",
+    "urlToImage": null,
+    "publishedAt": "2025-05-05T14:53:13Z",
+    "content": "Skip to comments.\r\nTesla sparks firestorm after bold defense of self-driving tech: 'Car does it all for you'Yahoo! / The Cool Down ^\r\n | May 2, 2025\r\n | Noah Jampol\r\nPosted on 05/05/2025 7:53:13 AM P… [+2581 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Freerepublic.com"
+    },
+    "author": "Yahoo! / The Cool Down",
+    "title": "Tesla sparks firestorm after bold defense of self-driving tech: 'Car does it all for you'",
+    "description": "Tesla is fighting back at criticism of its Full Self-Driving features. The EV automaker took to the social media platform X to provide a robust defense of FSD's current state and future. While few would take issue with this point, many consumers have been und…",
+    "url": "https://freerepublic.com/focus/f-chat/4315126/posts",
+    "urlToImage": null,
+    "publishedAt": "2025-05-05T14:53:13Z",
+    "content": "Skip to comments.\r\nTesla sparks firestorm after bold defense of self-driving tech: 'Car does it all for you'Yahoo! / The Cool Down ^\r\n | May 2, 2025\r\n | Noah Jampol\r\nPosted on 05/05/2025 7:53:13 AM P… [+6181 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Livemint"
+    },
+    "author": "mint",
+    "title": "Ather Energy IPO: Will the slow and steady builder outperform Ola on the markets?",
+    "description": "Ather Energy has had a successful IPO and is all set to list. Will the stock fall below its IPO price, a curse that has befallen many newage companies, particularly rival Ola Electric, or will it soar on the hard work put in by the founders to build a deeptec…",
+    "url": "https://www.livemint.com/companies/ather-energy-ipo-ola-electric-vehicle-scooter-deeptech-ev-two-wheeler-market-startup-hero-motocorp-tarun-mehta-11746451437091.html",
+    "urlToImage": "https://www.livemint.com/lm-img/img/2025/05/05/1600x900/Tarun_Mehta_Swapnil_Jain_Ather_1746454215802_1746454310716.jpg",
+    "publishedAt": "2025-05-05T14:43:41Z",
+    "content": "Bengaluru: Shubham Asawa, a consultant at a Bengaluru-based tech startup, initially planned to buy a conventional scooter. He was considering models such as the Suzuki Access and TVS Jupiter. Given t… [+15156 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Richmond.com"
+    },
+    "author": "Lee National Newsroom, The Associated Press",
+    "title": "Trump discusses fighting cartels, Alcatraz and due process | Hot off the Wire podcast",
+    "description": " Get the latest national, international, sports and entertainment news on our daily podcast.",
+    "url": "https://richmond.com/news/nation-world/article_a085bb18-ba3d-5e47-b445-a437cf3a2e4d.html",
+    "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/a/08/a085bb18-ba3d-5e47-b445-a437cf3a2e4d/6818c5e7c9508.preview.jpg?crop=1765%2C927%2C0%2C123&resize=1200%2C630&order=crop%2Cresize",
+    "publishedAt": "2025-05-05T14:30:00Z",
+    "content": "<ul><li>On today's episode: President Donald Trump discusses discussions with Mexico over sending troops to Mexico to fight drug cartels as well as the possibility of reopening Alcatraz as a prison. … [+4671 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Roanoke Times"
+    },
+    "author": "Lee National Newsroom, The Associated Press",
+    "title": "Trump discusses fighting cartels, Alcatraz and due process | Hot off the Wire podcast",
+    "description": " Get the latest national, international, sports and entertainment news on our daily podcast.",
+    "url": "https://roanoke.com/news/nation-world/article_1c1f1a09-4cc7-580b-9da1-6c349a4bc16b.html",
+    "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/1/c1/1c1f1a09-4cc7-580b-9da1-6c349a4bc16b/6818c5e7c6da4.preview.jpg?crop=1765%2C927%2C0%2C123&resize=1200%2C630&order=crop%2Cresize",
+    "publishedAt": "2025-05-05T14:30:00Z",
+    "content": "<ul><li>On today's episode: President Donald Trump discusses discussions with Mexico over sending troops to Mexico to fight drug cartels as well as the possibility of reopening Alcatraz as a prison. … [+4712 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "investors.com",
+    "title": "Dow Jones Futures Fall 270 Points On Trump Tariff News; Nvidia, Tesla Slide",
+    "description": "Access to this page has been denied because we believe you are using automation tools to browse the website.\nThis may happen as a result of the following:\n- Javascript is disabled or blocked by an extension (ad blockers for example)\n- Your browser does not su…",
+    "url": "https://biztoc.com/x/606f879b853ec7aa",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T14:17:09Z",
+    "content": "Access to this page has been denied because we believe you are using automation tools to browse the website.This may happen as a result of the following:- Javascript is disabled or blocked by an exte… [+147 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Techreport.com"
+    },
+    "author": "Krishi Chowdhary",
+    "title": "Huawei’s 910C AI Chips Are Ready for Mass Distribution. A Wake up Call for the US",
+    "description": "Mass shipment of Huawei’s 910C GPUs is expected to start by the end of this month.\nThe 910C uses two 910B processors and is reportedly as fast as Nvidia’s H100.\nThe company is also testing its latest Ascend 910D chips.\nThe post Huawei’s 910C AI Chips Are Read…",
+    "url": "https://techreport.com/news/huawei-910c-ai-chips-mass-distribution-us-wake-up-call/",
+    "urlToImage": "https://techreport.com/wp-content/uploads/2025/05/huawei-910c-ai-chips-mass-distribution-us-wake-up-call-e1746453848247.jpg?_t=1746460809",
+    "publishedAt": "2025-05-05T14:07:29Z",
+    "content": "Key Takeaways\r\n<ul><li>Mass shipment of Huawei’s 910C GPUs is expected to start by the end of this month.</li><li>The 910C uses two 910B processors and is reportedly as fast as Nvidia’s H100.</li><li… [+4825 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Livemint"
+    },
+    "author": "Barrons",
+    "title": "What big tech earnings taught us—and didn’t—about tariffs",
+    "description": "Tesla, Alphabet, Meta Platforms, Microsoft, Amazon.com and Apple have all reported earnings over the last two weeks.",
+    "url": "https://www.livemint.com/companies/company-results/what-big-tech-earnings-taught-us-and-didn-t-about-tariffs-11746453617057.html",
+    "urlToImage": "https://www.livemint.com/lm-img/img/2025/05/05/1600x900/im-66838381_1746453620973_1746453951176.jpg",
+    "publishedAt": "2025-05-05T14:06:11Z",
+    "content": "Six of the Magnificent Seven have reported their financial results this earnings season, giving investors some much-needed insight into how the worlds largest tech companies are being impacted by tar… [+2661 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "businessinsider.com",
+    "title": "Tesla faces an uphill battle as 6 major European electric vehicle markets report double-digit drops in sales",
+    "description": "Protesters gather outside a Tesla dealership in Lisbon, Portugal. Tesla vehicle sales in the country declined by 33% in April from the previous year.\nPATRICIA DE MELO MOREIRA / AFP\nTesla sales fell by up to 81% in some key European EV markets in April, signal…",
+    "url": "https://biztoc.com/x/387164e8013b4698",
+    "urlToImage": "https://biztoc.com/cdn/387164e8013b4698_s.webp",
+    "publishedAt": "2025-05-05T14:06:02Z",
+    "content": "Protesters gather outside a Tesla dealership in Lisbon, Portugal. Tesla vehicle sales in the country declined by 33% in April from the previous year.PATRICIA DE MELO MOREIRA / AFPTesla sales fell by … [+151 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "techcrunch.com",
+    "title": "Tesla sales continue to slump across Europe despite April EV sales swell",
+    "description": "Tesla’s new car sales in Spain fell 36% in April to just 571 vehicles year-over-year, Reuters reports. That slump comes as sales of electric cars made by other brands rose in the Iberian country.\nTesla sales in Spain mirror those in Europe generally, which pl…",
+    "url": "https://biztoc.com/x/6fbab59825039458",
+    "urlToImage": "https://biztoc.com/cdn/6fbab59825039458_s.webp",
+    "publishedAt": "2025-05-05T14:05:58Z",
+    "content": "Teslas new car sales in Spain fell 36% in April to just 571 vehicles year-over-year, Reuters reports. That slump comes as sales of electric cars made by other brands rose in the Iberian country.Tesla… [+141 chars]"
+    },
+    {
+    "source": {
+    "id": "business-insider",
+    "name": "Business Insider"
+    },
+    "author": "Rebecca Rommen",
+    "title": "Tesla faces an uphill battle as 6 major European electric vehicle markets report double-digit drops in sales",
+    "description": "Tesla sales fell by up to 81% in some European EV markets in April, compared to last year. It comes as rivals are putting pressure on the company.",
+    "url": "https://www.businessinsider.com/tesla-double-digit-sales-drops-in-6-european-countries-2025-5",
+    "urlToImage": "https://i.insider.com/681888353fe8d3928364e630?width=1200&format=jpeg",
+    "publishedAt": "2025-05-05T14:01:21Z",
+    "content": "Protesters gather outside a Tesla dealership in Lisbon, Portugal. Tesla vehicle sales in the country declined by 33% in April from the previous year.PATRICIA DE MELO MOREIRA / AFP\r\n<ul><li>Tesla sale… [+3456 chars]"
+    },
+    {
+    "source": {
+    "id": "fox-news",
+    "name": "Fox News"
+    },
+    "author": "Kurt Knutsson, CyberGuy Report",
+    "title": "Tesla doxxing attacks wrongly target nonowners across America",
+    "description": "Tech expert Kurt “CyberGuy\" Knutsson reports that Tesla owners are facing threats as hackers weaponize leaked data. Are you next?",
+    "url": "https://www.foxnews.com/tech/tesla-doxxing-attacks-wrongly-target-nonowners-across-america",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2025/05/1-whos-exposing-tesla-owners-personal-info-and-could-you-be-next.jpg",
+    "publishedAt": "2025-05-05T14:00:33Z",
+    "content": "The recent surge of attacks on Tesla owners, dealerships and charging stations has morphed into a broader campaign of intimidation, fueled by weaponized personal data. But the fallout isn't limited t… [+7550 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "GlobeNewswire"
+    },
+    "author": "Precedence Research",
+    "title": "Robot Charging Station Market Size to Achieve USD 25.43 Mn by 2034 | Towards Automotive Research",
+    "description": "According to Towards Automotive researchers, the global robot charging station market size is calculated at USD 1.02 million in 2025 and is expected to reach around USD 25.43 million by 2034, growing at a CAGR of 42.93% from 2024 to 2034. According to Towards…",
+    "url": "https://www.globenewswire.com/news-release/2025/05/05/3074178/0/en/Robot-Charging-Station-Market-Size-to-Achieve-USD-25-43-Mn-by-2034-Towards-Automotive-Research.html",
+    "urlToImage": "https://ml.globenewswire.com/Resource/Download/01eb1f79-0c67-420b-b423-376619f975cd",
+    "publishedAt": "2025-05-05T14:00:00Z",
+    "content": "Ottawa, May 05, 2025 (GLOBE NEWSWIRE) -- The global robot charging station market size was valued at USD 0.71 million in 2024 and is predicted to hit around USD 25.43 million by 2034, a study publish… [+15579 chars]"
+    },
+    {
+    "source": {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+    },
+    "author": "Rebecca Bellan",
+    "title": "Tesla sales continue to slump across Europe despite April EV sales swell | TechCrunch",
+    "description": "Tesla's new car sales in Spain fell 36% in April to just 571 vehicles year-over-year, Reuters reports. That slump comes as sales of electric cars made by",
+    "url": "https://techcrunch.com/2025/05/05/tesla-sales-continue-to-slump-across-europe-despite-april-ev-sales-swell/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/01/Tesla-sign-Getty.jpg?resize=1200,800",
+    "publishedAt": "2025-05-05T13:59:04Z",
+    "content": "Tesla’s new car sales in Spain fell 36% in April to just 571 vehicles year-over-year, Reuters reports. That slump comes as sales of electric cars made by other brands rose in the Iberian country. \r\nT… [+1053 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "GlobeNewswire"
+    },
+    "author": "Research and Markets",
+    "title": "OEMs' Modular and Common Technology Platform Research Report, 2025 - Standardized Hardware Meets Personalized Software: The New Automotive Era",
+    "description": "Dublin, May 05, 2025 (GLOBE NEWSWIRE) -- The \"OEMs' Modular and Common Technology Platform Research Report, 2025\" has been added to ResearchAndMarkets.com's offering.Modular platforms and common technology platforms of OEMs are at the core of current technolo…",
+    "url": "https://www.globenewswire.com/news-release/2025/05/05/3074143/28124/en/OEMs-Modular-and-Common-Technology-Platform-Research-Report-2025-Standardized-Hardware-Meets-Personalized-Software-The-New-Automotive-Era.html",
+    "urlToImage": "https://ml.globenewswire.com/Resource/Download/908fb457-7f8e-4a08-9081-5565e3dfb3d7",
+    "publishedAt": "2025-05-05T13:25:00Z",
+    "content": "Dublin, May 05, 2025 (GLOBE NEWSWIRE) -- The \"OEMs' Modular and Common Technology Platform Research Report, 2025\" has been added to ResearchAndMarkets.com's offering.\r\nModular platforms and common te… [+8070 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "3G Capital to Buy Skechers Footwear Brand for $63 a Share",
+    "description": "",
+    "url": "https://biztoc.com/x/51b50711fa5134af",
+    "urlToImage": "https://biztoc.com/cdn/51b50711fa5134af_s.webp",
+    "publishedAt": "2025-05-05T13:22:05Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+934 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "edition.cnn.com",
+    "title": "The clock is ticking down to zero, and Trump needs a trade deal — badly",
+    "description": "",
+    "url": "https://biztoc.com/x/8a90e859791857a4",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T13:22:00Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+897 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barrons.com",
+    "title": "Tariff News: A Trade Deal May Come This Week, Report Says",
+    "description": "",
+    "url": "https://biztoc.com/x/ad2ac341e53c85ea",
+    "urlToImage": "https://biztoc.com/cdn/ad2ac341e53c85ea_s.webp",
+    "publishedAt": "2025-05-05T13:21:56Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+892 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Weather Can Be Magnet for Conspiracy Theories and Disinformation",
+    "description": "",
+    "url": "https://biztoc.com/x/8bd208b8dcfd5172",
+    "urlToImage": "https://biztoc.com/cdn/8bd208b8dcfd5172_s.webp",
+    "publishedAt": "2025-05-05T13:21:49Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+947 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "cnbc.com",
+    "title": "Skechers to be acquired by 3G Capital in take-private deal, shares soar 25%",
+    "description": "",
+    "url": "https://biztoc.com/x/18546eef3e553059",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T13:21:45Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+889 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Car-Loan Billionaire Hankey Lists Mansion for $43.85 Million",
+    "description": "",
+    "url": "https://biztoc.com/x/927377aa6992b42c",
+    "urlToImage": "https://biztoc.com/cdn/927377aa6992b42c_s.webp",
+    "publishedAt": "2025-05-05T13:11:01Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+937 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "ctinsider.com",
+    "title": "Pratt & Whitney strike underway as machinists walk picket lines in East Hartford and Middletown",
+    "description": "",
+    "url": "https://biztoc.com/x/7b9512210a7493ff",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T13:10:52Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+917 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Hims Taps Amazon Veteran to Lead Operations as Company Expands",
+    "description": "",
+    "url": "https://biztoc.com/x/5b9f802e0e547227",
+    "urlToImage": "https://biztoc.com/cdn/5b9f802e0e547227_s.webp",
+    "publishedAt": "2025-05-05T13:10:47Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+933 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "scmp.com",
+    "title": "Tesla pushes lidar-free self-driving system in China amid wait for Beijing’s FSD approval",
+    "description": "The US carmaker said in a Weibo post that its ‘visual processing solutions’ provide safer intelligent driving in various scenarios.",
+    "url": "https://biztoc.com/x/d02494f90b2a0d9b",
+    "urlToImage": "https://biztoc.com/cdn/d02494f90b2a0d9b_s.webp",
+    "publishedAt": "2025-05-05T13:10:39Z",
+    "content": "The US carmaker said in a Weibo post that its visual processing solutions provide safer intelligent driving in various scenarios.\r\nThis story appeared on scmp.com, 2025-05-05 13:00:17."
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barchart.com",
+    "title": "KeyCorp Stock: Analyst Estimates & Ratings",
+    "description": "",
+    "url": "https://biztoc.com/x/b1256b3929ed8436",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T13:10:37Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+903 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "politico.com",
+    "title": "Capitol agenda: Crypto chaos hits the Senate",
+    "description": "",
+    "url": "https://biztoc.com/x/7aae79cc0df7ff0f",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T13:00:00Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+938 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "marketwatch.com",
+    "title": "Berkshire Hathaway says Buffett will remain chairman when Abel takes CEO reins",
+    "description": "",
+    "url": "https://biztoc.com/x/fbf495b620c2ebf4",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T13:00:00Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+910 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Saudi-Backed Port Developer Weighs South Africa Harbor Deal",
+    "description": "",
+    "url": "https://biztoc.com/x/bc029fcc6ea3bad4",
+    "urlToImage": "https://biztoc.com/cdn/bc029fcc6ea3bad4_s.webp",
+    "publishedAt": "2025-05-05T12:59:57Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+937 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Updates From Milken Institute Global Conference",
+    "description": "",
+    "url": "https://biztoc.com/x/70e2c15b538502f4",
+    "urlToImage": "https://biztoc.com/cdn/70e2c15b538502f4_s.webp",
+    "publishedAt": "2025-05-05T12:59:46Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+919 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barrons.com",
+    "title": "Tyson Foods Misses the Mark on Sales",
+    "description": "",
+    "url": "https://biztoc.com/x/98778333956c858d",
+    "urlToImage": "https://biztoc.com/cdn/98778333956c858d_s.webp",
+    "publishedAt": "2025-05-05T12:59:41Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+892 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barchart.com",
+    "title": "Hogs Shift Focus to New Week",
+    "description": "",
+    "url": "https://biztoc.com/x/f6f905810ca6fa49",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T12:49:07Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+892 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barchart.com",
+    "title": "Hewlett Packard Enterprise Stock: Is Wall Street Bullish or Bearish?",
+    "description": "",
+    "url": "https://biztoc.com/x/54d11fed30f09406",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T12:49:02Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+930 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Romanian Prime Minister to Resign After Coalition Defeat in Vote",
+    "description": "",
+    "url": "https://biztoc.com/x/b4a70d72ff5b6a1c",
+    "urlToImage": "https://biztoc.com/cdn/b4a70d72ff5b6a1c_s.webp",
+    "publishedAt": "2025-05-05T12:48:54Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+942 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Peabody Says Mine Fire Threatens to Derail Anglo Coal Takeover",
+    "description": "",
+    "url": "https://biztoc.com/x/df62926e19eda734",
+    "urlToImage": "https://biztoc.com/cdn/df62926e19eda734_s.webp",
+    "publishedAt": "2025-05-05T12:48:53Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+940 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "semafor.com",
+    "title": "Trump's Gulf visit to focus on investment, weapons deals",
+    "description": "",
+    "url": "https://biztoc.com/x/abeb4bfbd0939c43",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T12:48:47Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+911 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "finance.yahoo.com",
+    "title": "Lundin announces largest greenfield copper discovery at Filo del Sol project",
+    "description": "",
+    "url": "https://biztoc.com/x/3648d5f483a4b362",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T12:48:41Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+916 chars]"
+    },
+    {
+     "source": {
+    "id": null,
+    "name": "Forbes"
+    },
+    "author": "Alan Ohnsman, Forbes Staff, \n Alan Ohnsman, Forbes Staff\n https://www.forbes.com/sites/alanohnsman/",
+    "title": "Current Climate: Major Assault On California’s Environmental Rules",
+    "description": "In this week's Current Climate, California's ability to set tough environmental rules is under attack; Elon Musk is out of ideas to revive Tesla; domestically sourced lithium-sulfur batteries",
+    "url": "https://www.forbes.com/sites/alanohnsman/2025/05/05/current-climate-a-major-assault-on-californias-environmental-rules/",
+    "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/681541b451ae5311ac7d37e4/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+    "publishedAt": "2025-05-05T12:45:00Z",
+    "content": "Plus: Elon Musk runs out of ideas to save Tesla; cheaper, domestically sourced lithium-sulfur batteries\r\nCurrent Climate brings you the latest news about the business of sustainability every Monday. … [+10833 chars]"
+    },
+    {
+    "source": {
+    "id": "marca",
+    "name": "Marca"
+    },
+    "author": "ÓSCAR JIMÉNEZ, AUSTIN CALDWELL",
+    "title": "Elon Musk creates his own private city in Texas, despite protests from environmental groups",
+    "description": "Elon Musk, having failed to establish the first city on Mars - a plan he plans to start in 2026 - has pushed for the creation of a new private municipality in the United States, th",
+    "url": "https://www.marca.com/en/lifestyle/us-news/2025/05/05/6818afbfca4741df6e8b4589.html",
+    "urlToImage": "https://phantom-marca.uecdn.es/ba6e1d99eeb00d8a6f86a56b85fb172a/resize/1200/f/webp/assets/multimedia/imagenes/2025/05/05/17464486194872.jpg",
+    "publishedAt": "2025-05-05T12:40:32Z",
+    "content": "Elon Musk, having failed to establish the first city on Mars - a plan he plans to start in 2026 - has pushed for the creation of a new private municipality in the United States, the second of its kin… [+1523 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Trump’s Gutting of US Climate Report Prompts Science Groups to Step Up",
+    "description": "",
+    "url": "https://biztoc.com/x/f21b06ec5056e913",
+    "urlToImage": "https://biztoc.com/cdn/f21b06ec5056e913_s.webp",
+    "publishedAt": "2025-05-05T12:37:57Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+948 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Apple Plans to Sell Corporate Bonds in as Many as Four Parts",
+    "description": "",
+    "url": "https://biztoc.com/x/8ef903e27d8cde7b",
+    "urlToImage": "https://biztoc.com/cdn/8ef903e27d8cde7b_s.webp",
+    "publishedAt": "2025-05-05T12:37:55Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+938 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barchart.com",
+    "title": "Do Wall Street Analysts Like Mondelez International Stock?",
+    "description": "",
+    "url": "https://biztoc.com/x/b7be6d6456dbc05e",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T12:37:53Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+921 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barchart.com",
+    "title": "What Are Wall Street Analysts' Target Price for Schlumberger Stock?",
+    "description": "",
+    "url": "https://biztoc.com/x/ec05635735b8d347",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T12:37:42Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+929 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barrons.com",
+    "title": "Cummins Beats Earnings Estimates But Withdraws Full-Year Guidance Due to Tariffs",
+    "description": "",
+    "url": "https://biztoc.com/x/e102c9a63f2cb86b",
+    "urlToImage": "https://biztoc.com/cdn/e102c9a63f2cb86b_s.webp",
+    "publishedAt": "2025-05-05T12:37:42Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+888 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Brazil Economists Cut Interest-Rate Forecast on Eve of Policy Meeting",
+    "description": "",
+    "url": "https://biztoc.com/x/806fbfe20d44a8c1",
+    "urlToImage": "https://biztoc.com/cdn/806fbfe20d44a8c1_s.webp",
+    "publishedAt": "2025-05-05T12:37:39Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+927 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "benzinga.com",
+    "title": "Elon Musk Wants His Legacy To Be Advancing Civilization, Says Without 'Truth-Seeking AI,' The Future Could Be 'Dangerous'",
+    "description": "In a recent interview, Tesla CEO and billionaire Elon Musk shared what he hopes will eventually become his legacy: helping civilization progress.\nAlongside his ambitious objectives for Tesla, SpaceX, and Neuralink, Musk stressed a mounting priority: developin…",
+    "url": "https://biztoc.com/x/7ae9afb85892fd77",
+    "urlToImage": "https://biztoc.com/cdn/7ae9afb85892fd77_s.webp",
+    "publishedAt": "2025-05-05T12:26:58Z",
+    "content": "In a recent interview, Tesla CEO and billionaire Elon Musk shared what he hopes will eventually become his legacy: helping civilization progress.Alongside his ambitious objectives for Tesla, SpaceX, … [+142 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barrons.com",
+    "title": "ON Semiconductor Stock Climbs on Better-Than-Expected Earnings",
+    "description": "",
+    "url": "https://biztoc.com/x/c4694b3a73bcab83",
+    "urlToImage": "https://biztoc.com/cdn/c4694b3a73bcab83_s.webp",
+    "publishedAt": "2025-05-05T12:26:53Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+897 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "US Lawmakers Request $400 Million in Transit Aid for World Cup",
+    "description": "",
+    "url": "https://biztoc.com/x/8b3ce70d2a57e2e9",
+    "urlToImage": "https://biztoc.com/cdn/8b3ce70d2a57e2e9_s.webp",
+    "publishedAt": "2025-05-05T12:26:52Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+939 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Trump Team Set to Dissolve Reagan-Era Transnational Crime Unit",
+    "description": "",
+    "url": "https://biztoc.com/x/92f36ac377fe60fa",
+    "urlToImage": "https://biztoc.com/cdn/92f36ac377fe60fa_s.webp",
+    "publishedAt": "2025-05-05T12:26:51Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+940 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barrons.com",
+    "title": "Buffett to Remain Berkshire Hathaway Chairman After Giving Up CEO Role",
+    "description": "",
+    "url": "https://biztoc.com/x/e6f44f4392bc4a72",
+    "urlToImage": "https://biztoc.com/cdn/e6f44f4392bc4a72_s.webp",
+    "publishedAt": "2025-05-05T12:26:41Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+902 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "wired.com",
+    "title": "Researchers: open source serialization tool easyjson, developed by Russia's VK Group and widely used by the US DOD and others, poses a national security risk",
+    "description": "",
+    "url": "https://biztoc.com/x/bce573c63f1605f3",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T12:26:40Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+879 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Afterbabel.com"
+    },
+    "author": "Christine Rosen",
+    "title": "The Death of Daydreaming: What we lose when phones take away boredom",
+    "description": "What we lose when phones take away boredom and interstitial time",
+    "url": "https://www.afterbabel.com/p/on-the-death-of-daydreaming",
+    "urlToImage": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc045dcff-c182-4cc1-b063-23afb0578a5a_3840x2160.jpeg",
+    "publishedAt": "2025-05-05T12:22:10Z",
+    "content": "Intro from Jon Haidt:\r\nWhen I was nearly finished writing The Anxious Generation in the summer of 2023, I realized that I had left a gap. The book focused on the collapse of mental health, attention,… [+21697 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "barrons.com",
+    "title": "Oil Prices Drop to Four-Year Low. Big Mergers Like a Shell, BP Combo Could Appeal",
+    "description": "",
+    "url": "https://biztoc.com/x/3976675c3baf4429",
+    "urlToImage": "https://biztoc.com/cdn/3976675c3baf4429_s.webp",
+    "publishedAt": "2025-05-05T12:15:53Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+897 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "finance.yahoo.com",
+    "title": "Permian Resources Corporation (PR): Among the Most Undervalued Energy Stocks to Buy According to Hedge Funds",
+    "description": "",
+    "url": "https://biztoc.com/x/98b60300db4f7d4e",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T12:15:52Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+912 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Kosovo Premier Seeks to End Deadlock With Bid to Form Coalition",
+    "description": "",
+    "url": "https://biztoc.com/x/c6ffc372578772c5",
+    "urlToImage": "https://biztoc.com/cdn/c6ffc372578772c5_s.webp",
+    "publishedAt": "2025-05-05T12:15:51Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+941 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Saudi Firm Brings Westfield Malls to Kingdom Amid Tourism Push",
+    "description": "",
+    "url": "https://biztoc.com/x/21dd2ba8d81bb912",
+    "urlToImage": "https://biztoc.com/cdn/21dd2ba8d81bb912_s.webp",
+    "publishedAt": "2025-05-05T12:15:45Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+951 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "marketwatch.com",
+    "title": "Economists foresee a U.S. recession. It might be an optimal time to buy stocks",
+    "description": "",
+    "url": "https://biztoc.com/x/18a8110b76d552e1",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T12:15:44Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+910 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "investors.com",
+    "title": "Dow Jones Futures Fall 270 Points On Trump Tariff News; Nvidia, Tesla Slide",
+    "description": "Futures for the Dow Jones Industrial Average and other major stock indexes dropped Monday, as Wall Street reacted to President Donald Trump's latest tariff news. Nvidia (NVDA), Tesla (TSLA) pulled back on the stock market today following rallies in recent ses…",
+    "url": "https://biztoc.com/x/37c1b29b35b24e71",
+    "urlToImage": "https://biztoc.com/cdn/37c1b29b35b24e71_s.webp",
+    "publishedAt": "2025-05-05T12:15:44Z",
+    "content": "Futures for the Dow Jones Industrial Average and other major stock indexes dropped Monday, as Wall Street reacted to President Donald Trump's latest tariff news. Nvidia (NVDA), Tesla (TSLA) pulled ba… [+146 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "How Abu Dhabi’s $1.7 Trillion Wealth Funds Collaborate — And Compete",
+    "description": "",
+    "url": "https://biztoc.com/x/1b9097c18cc273a7",
+    "urlToImage": "https://biztoc.com/cdn/1b9097c18cc273a7_s.webp",
+    "publishedAt": "2025-05-05T12:15:41Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+953 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "A hacker stole data from TeleMessage, the firm that sells modified versions of Signal to the U.S. gov",
+    "description": "A hacker stole data from TeleMessage, exposing messages from its modified Signal, WhatsApp, and other apps sold to the U.S. government. A hacker stole customer data from TeleMessage, an Israeli firm selling modified versions of popular messaging apps, such as…",
+    "url": "https://securityaffairs.com/177458/hacking/a-hacker-stole-data-from-telemessage-the-firm-that-sells-modified-versions-of-signal-to-the-u-s-gov.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/05/image-10.png",
+    "publishedAt": "2025-05-05T12:06:21Z",
+    "content": "A hacker stole data from TeleMessage, the firm that sells modified versions of Signal to the U.S. gov\r\n | Experts shared up-to-date C2 domains and other artifacts related to recent MintsLoader attack… [+161389 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Ackman’s Pershing Square to Invest $900 Million in Howard Hughes",
+    "description": "",
+    "url": "https://biztoc.com/x/196947419c98aab5",
+    "urlToImage": "https://biztoc.com/cdn/196947419c98aab5_s.webp",
+    "publishedAt": "2025-05-05T12:04:54Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+941 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "US Border Towns Are Being Ravaged by Canada’s Furious Boycott",
+    "description": "",
+    "url": "https://biztoc.com/x/49065f41548f2a18",
+    "urlToImage": "https://biztoc.com/cdn/49065f41548f2a18_s.webp",
+    "publishedAt": "2025-05-05T12:04:51Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+931 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Berkshire’s Board Follows Buffett’s Advice, Naming Abel Next CEO",
+    "description": "",
+    "url": "https://biztoc.com/x/4fc3ebc5d372c591",
+    "urlToImage": "https://biztoc.com/cdn/4fc3ebc5d372c591_s.webp",
+    "publishedAt": "2025-05-05T12:04:50Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+941 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Warren Buffett Steps Down After Six Decades in Charge",
+    "description": "",
+    "url": "https://biztoc.com/x/13297240354e5ba9",
+    "urlToImage": "https://biztoc.com/cdn/13297240354e5ba9_s.webp",
+    "publishedAt": "2025-05-05T12:04:43Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+934 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "bloomberg.com",
+    "title": "Apple Reaches Critical Juncture With Tariffs, AI and Services Turmoil",
+    "description": "",
+    "url": "https://biztoc.com/x/f0af8be31af540aa",
+    "urlToImage": "https://biztoc.com/cdn/f0af8be31af540aa_s.webp",
+    "publishedAt": "2025-05-05T12:04:41Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+965 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "edition.cnn.com",
+    "title": "Federal student loans are due again. A record percentage of borrowers are seriously delinquent",
+    "description": "",
+    "url": "https://biztoc.com/x/0c3cd6e5a8ebddc6",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T12:04:37Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+912 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "The Star Online"
+    },
+    "author": "Friederike  Heine",
+    "title": "AfD files lawsuit against German spy agency's extremist classification",
+    "description": "BERLIN (Reuters) -Far-right party Alternative for Germany filed a lawsuit on Monday challenging a decision last week by Germany's domestic intelligence agency to classify the party as an extremist organisation. Read full story",
+    "url": "https://www.thestar.com.my/news/world/2025/05/05/afd-files-lawsuit-against-german-spy-agency039s-extremist-classification",
+    "urlToImage": "https://apicms.thestar.com.my/uploads/images/2025/05/05/3299991.jpg",
+    "publishedAt": "2025-05-05T11:58:00Z",
+    "content": "BERLIN (Reuters) -Far-right party Alternative for Germany filed a lawsuit on Monday challenging a decision last week by Germany's domestic intelligence agency to classify the party as an extremist or… [+2225 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "finance.yahoo.com",
+    "title": "New Tesla sales in Spain drop 36% in April despite EV sales surge",
+    "description": "In This Article:\n(Reuters) -Tesla's new car sales in Spain fell 36% in April from the same month in 2024 to 571 vehicles, registration data released by industry group ANFAC showed on Monday, while sales of electric cars from other brands soared.\nOver the firs…",
+    "url": "https://biztoc.com/x/55fc71620b85dc33",
+    "urlToImage": "https://biztoc.com/cdn/55fc71620b85dc33_s.webp",
+    "publishedAt": "2025-05-05T11:53:49Z",
+    "content": "In This Article:(Reuters) -Tesla's new car sales in Spain fell 36% in April from the same month in 2024 to 571 vehicles, registration data released by industry group ANFAC showed on Monday, while sal… [+149 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "investors.com",
+    "title": "Five China Stocks Near Buy Points Amid Trump Tariff Trade War Hopes",
+    "description": "China stocks are rebounding on trade war hopes after tumbling on Trump tariffs. Alibaba and Tesla rivals are near buy points.\nThe post Five China Stocks Near Buy Points Amid Trump Tariff Trade War Hopes appeared first on Investor's Business Daily.",
+    "url": "https://biztoc.com/x/0e10dabfce3f888a",
+    "urlToImage": "https://biztoc.com/cdn/930/og.png",
+    "publishedAt": "2025-05-05T11:53:36Z",
+    "content": "China stocks are rebounding on trade war hopes after tumbling on Trump tariffs. Alibaba and Tesla rivals are near buy points.The post Five China Stocks Near Buy Points Amid Trump Tariff Trade War Hop… [+106 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "investing.com",
+    "title": "Pakistan tests missile amid India standoff, Moody's warns of economic cost",
+    "description": "",
+    "url": "https://biztoc.com/x/20d76089097e921a",
+    "urlToImage": "https://biztoc.com/cdn/20d76089097e921a_s.webp",
+    "publishedAt": "2025-05-05T11:53:29Z",
+    "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Warren Buffett stepping down now? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Trump's movie tariff af… [+944 chars]"
+    }
+    ],        
+           loading: true,
             page: 1,
             totalResults: 5
         }
